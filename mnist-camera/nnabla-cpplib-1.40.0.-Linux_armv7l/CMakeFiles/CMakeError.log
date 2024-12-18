@@ -1,0 +1,998 @@
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;setjmp.h;stddef.h;stdint.h;unistd.h;pwd.h;io.h exist failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cdcff/fast && /usr/bin/make -f CMakeFiles/cmTC_cdcff.dir/build.make CMakeFiles/cmTC_cdcff.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_cdcff.dir/H5_HAVE_IO_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cdcff.dir/H5_HAVE_IO_H.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_IO_H.c
+/home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_IO_H.c:16:10: fatal error: io.h: そのようなファイルやディレクトリはありません
+ #include <io.h>
+          ^~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_cdcff.dir/build.make:66: CMakeFiles/cmTC_cdcff.dir/H5_HAVE_IO_H.c.o] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_cdcff/fast] エラー 2
+
+
+Source:
+/* */
+#include <sys/file.h>
+#include <sys/ioctl.h>
+#include <sys/resource.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <features.h>
+#include <dirent.h>
+#include <setjmp.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <unistd.h>
+#include <pwd.h>
+#include <io.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;setjmp.h;stddef.h;stdint.h;unistd.h;pwd.h;winsock2.h exist failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dfaa3/fast && /usr/bin/make -f CMakeFiles/cmTC_dfaa3.dir/build.make CMakeFiles/cmTC_dfaa3.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_dfaa3.dir/H5_HAVE_WINSOCK2_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_dfaa3.dir/H5_HAVE_WINSOCK2_H.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_WINSOCK2_H.c
+/home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_WINSOCK2_H.c:16:10: fatal error: winsock2.h: そのようなファイルやディレクトリはありません
+ #include <winsock2.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_dfaa3.dir/build.make:66: CMakeFiles/cmTC_dfaa3.dir/H5_HAVE_WINSOCK2_H.c.o] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_dfaa3/fast] エラー 2
+
+
+Source:
+/* */
+#include <sys/file.h>
+#include <sys/ioctl.h>
+#include <sys/resource.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <features.h>
+#include <dirent.h>
+#include <setjmp.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <unistd.h>
+#include <pwd.h>
+#include <winsock2.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;setjmp.h;stddef.h;stdint.h;unistd.h;pwd.h;globus/common.h exist failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c31b7/fast && /usr/bin/make -f CMakeFiles/cmTC_c31b7.dir/build.make CMakeFiles/cmTC_c31b7.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_c31b7.dir/H5_HAVE_GLOBUS_COMMON_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c31b7.dir/H5_HAVE_GLOBUS_COMMON_H.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_GLOBUS_COMMON_H.c
+/home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_GLOBUS_COMMON_H.c:16:10: fatal error: globus/common.h: そのようなファイルやディレクトリはありません
+ #include <globus/common.h>
+          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_c31b7.dir/build.make:66: CMakeFiles/cmTC_c31b7.dir/H5_HAVE_GLOBUS_COMMON_H.c.o] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_c31b7/fast] エラー 2
+
+
+Source:
+/* */
+#include <sys/file.h>
+#include <sys/ioctl.h>
+#include <sys/resource.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <features.h>
+#include <dirent.h>
+#include <setjmp.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <unistd.h>
+#include <pwd.h>
+#include <globus/common.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;setjmp.h;stddef.h;stdint.h;unistd.h;pwd.h;pdb.h exist failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_eef1f/fast && /usr/bin/make -f CMakeFiles/cmTC_eef1f.dir/build.make CMakeFiles/cmTC_eef1f.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_eef1f.dir/H5_HAVE_PDB_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_eef1f.dir/H5_HAVE_PDB_H.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_PDB_H.c
+/home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_PDB_H.c:16:10: fatal error: pdb.h: そのようなファイルやディレクトリはありません
+ #include <pdb.h>
+          ^~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_eef1f.dir/build.make:66: CMakeFiles/cmTC_eef1f.dir/H5_HAVE_PDB_H.c.o] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_eef1f/fast] エラー 2
+
+
+Source:
+/* */
+#include <sys/file.h>
+#include <sys/ioctl.h>
+#include <sys/resource.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <features.h>
+#include <dirent.h>
+#include <setjmp.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <unistd.h>
+#include <pwd.h>
+#include <pdb.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;setjmp.h;stddef.h;stdint.h;unistd.h;pwd.h;pthread.h;srbclient.h exist failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_80bd7/fast && /usr/bin/make -f CMakeFiles/cmTC_80bd7.dir/build.make CMakeFiles/cmTC_80bd7.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_80bd7.dir/H5_HAVE_SRBCLIENT_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_80bd7.dir/H5_HAVE_SRBCLIENT_H.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_SRBCLIENT_H.c
+/home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_SRBCLIENT_H.c:17:10: fatal error: srbclient.h: そのようなファイルやディレクトリはありません
+ #include <srbclient.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_80bd7.dir/build.make:66: CMakeFiles/cmTC_80bd7.dir/H5_HAVE_SRBCLIENT_H.c.o] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_80bd7/fast] エラー 2
+
+
+Source:
+/* */
+#include <sys/file.h>
+#include <sys/ioctl.h>
+#include <sys/resource.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <features.h>
+#include <dirent.h>
+#include <setjmp.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <unistd.h>
+#include <pwd.h>
+#include <pthread.h>
+#include <srbclient.h>
+
+
+int main(void){return 0;}
+
+Determining if files quadmath.h exist failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_22352/fast && /usr/bin/make -f CMakeFiles/cmTC_22352.dir/build.make CMakeFiles/cmTC_22352.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_22352.dir/C_HAVE_QUADMATH.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_22352.dir/C_HAVE_QUADMATH.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/C_HAVE_QUADMATH.c
+/home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/C_HAVE_QUADMATH.c:2:10: fatal error: quadmath.h: そのようなファイルやディレクトリはありません
+ #include <quadmath.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_22352.dir/build.make:66: CMakeFiles/cmTC_22352.dir/C_HAVE_QUADMATH.c.o] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_22352/fast] エラー 2
+
+
+Source:
+/* */
+#include <quadmath.h>
+
+
+int main(void){return 0;}
+
+Determining if the function WSAStartup exists in the ws2_32;m;dl failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f6fa8/fast && /usr/bin/make -f CMakeFiles/cmTC_f6fa8.dir/build.make CMakeFiles/cmTC_f6fa8.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_f6fa8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=WSAStartup   -o CMakeFiles/cmTC_f6fa8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f6fa8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6fa8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=WSAStartup    CMakeFiles/cmTC_f6fa8.dir/CheckFunctionExists.c.o  -o cmTC_f6fa8  -lws2_32 -lm -ldl 
+/usr/bin/ld: -lws2_32 が見つかりません
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_f6fa8.dir/build.make:87: cmTC_f6fa8] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_f6fa8/fast] エラー 2
+
+
+
+Determining if the function gethostbyname exists in the wsock32;m;dl failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b2b60/fast && /usr/bin/make -f CMakeFiles/cmTC_b2b60.dir/build.make CMakeFiles/cmTC_b2b60.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_b2b60.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_b2b60.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b2b60
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2b60.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_b2b60.dir/CheckFunctionExists.c.o  -o cmTC_b2b60  -lwsock32 -lm -ldl 
+/usr/bin/ld: -lwsock32 が見つかりません
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_b2b60.dir/build.make:87: cmTC_b2b60] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_b2b60/fast] エラー 2
+
+
+
+Determining if the function gethostname exists in the ucb;m;dl failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1f379/fast && /usr/bin/make -f CMakeFiles/cmTC_1f379.dir/build.make CMakeFiles/cmTC_1f379.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_1f379.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostname   -o CMakeFiles/cmTC_1f379.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1f379
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f379.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostname    CMakeFiles/cmTC_1f379.dir/CheckFunctionExists.c.o  -o cmTC_1f379  -lucb -lm -ldl 
+/usr/bin/ld: -lucb が見つかりません
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_1f379.dir/build.make:87: cmTC_1f379] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_1f379/fast] エラー 2
+
+
+
+Determining size of __int64 failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fcd54/fast && /usr/bin/make -f CMakeFiles/cmTC_fcd54.dir/build.make CMakeFiles/cmTC_fcd54.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_fcd54.dir/H5_SIZEOF___INT64.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_fcd54.dir/H5_SIZEOF___INT64.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c
+/home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c:23:22: error: ‘__int64’ undeclared here (not in a function); did you mean ‘__int64_t’?
+ #define SIZE (sizeof(__int64))
+                      ^~~~~~~
+/home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+make[1]: *** [CMakeFiles/cmTC_fcd54.dir/build.make:66: CMakeFiles/cmTC_fcd54.dir/H5_SIZEOF___INT64.c.o] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_fcd54/fast] エラー 2
+
+
+/home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the variable CLOCK_MONOTONIC exists failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_254fe/fast && /usr/bin/make -f CMakeFiles/cmTC_254fe.dir/build.make CMakeFiles/cmTC_254fe.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_254fe.dir/CheckVariableExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_VARIABLE_EXISTS=CLOCK_MONOTONIC   -o CMakeFiles/cmTC_254fe.dir/CheckVariableExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckVariableExists.c
+Linking C executable cmTC_254fe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_254fe.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_VARIABLE_EXISTS=CLOCK_MONOTONIC    CMakeFiles/cmTC_254fe.dir/CheckVariableExists.c.o  -o cmTC_254fe 
+/usr/bin/ld: CMakeFiles/cmTC_254fe.dir/CheckVariableExists.c.o: in function `main':
+CheckVariableExists.c:(.text+0x48): undefined reference to `CLOCK_MONOTONIC'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_254fe.dir/build.make:87: cmTC_254fe] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_254fe/fast] エラー 2
+
+
+
+Performing C SOURCE FILE Test H5_HAVE___TM_GMTOFF failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b6e4e/fast && /usr/bin/make -f CMakeFiles/cmTC_b6e4e.dir/build.make CMakeFiles/cmTC_b6e4e.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_b6e4e.dir/src.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DH5_HAVE___TM_GMTOFF   -o CMakeFiles/cmTC_b6e4e.dir/src.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp/src.c
+/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp/src.c:6:34: error: ‘struct tm’ has no member named ‘__tm_gmtoff’; did you mean ‘tm_gmtoff’?
+   (void)sizeof(((struct tm *)0)->__tm_gmtoff);
+                                  ^~~~~~~~~~~
+                                  tm_gmtoff
+make[1]: *** [CMakeFiles/cmTC_b6e4e.dir/build.make:66: CMakeFiles/cmTC_b6e4e.dir/src.c.o] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_b6e4e/fast] エラー 2
+
+
+Source file was:
+
+#include <time.h>
+
+int main()
+{
+  (void)sizeof(((struct tm *)0)->__tm_gmtoff);
+  return 0;
+}
+
+Performing C SOURCE FILE Test H5_HAVE_STRUCT_TIMEZONE failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f9707/fast && /usr/bin/make -f CMakeFiles/cmTC_f9707.dir/build.make CMakeFiles/cmTC_f9707.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_f9707.dir/src.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DH5_HAVE_STRUCT_TIMEZONE   -o CMakeFiles/cmTC_f9707.dir/src.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp/src.c
+/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp/src.c:8:32: error: ‘struct tm’ has no member named ‘tz_minuteswest’
+   (void)sizeof(((struct tm *)0)->tz_minuteswest);
+                                ^~
+make[1]: *** [CMakeFiles/cmTC_f9707.dir/build.make:66: CMakeFiles/cmTC_f9707.dir/src.c.o] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_f9707/fast] エラー 2
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/time.h>
+#include <time.h>
+
+int main()
+{
+  (void)sizeof(((struct tm *)0)->tz_minuteswest);
+  return 0;
+}
+
+Performing Other Test HAVE_TM_ZONE failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ca5c0/fast && /usr/bin/make -f CMakeFiles/cmTC_ca5c0.dir/build.make CMakeFiles/cmTC_ca5c0.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_ca5c0.dir/HDFTests.c.o
+/usr/bin/cc   -DHAVE_TM_ZONE  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -o CMakeFiles/cmTC_ca5c0.dir/HDFTests.c.o   -c /home/pi/Desktop/nnabla/third_party/hdf5-master/config/cmake_ext_mod/HDFTests.c
+Linking C executable cmTC_ca5c0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca5c0.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_ca5c0.dir/HDFTests.c.o  -o cmTC_ca5c0  -lm -ldl 
+/usr/bin/ld: /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o: in function `_start':
+(.text+0x34): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_ca5c0.dir/build.make:87: cmTC_ca5c0] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_ca5c0/fast] エラー 2
+
+
+Performing Other Test HAVE_STRUCT_TM_TM_ZONE failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bba6f/fast && /usr/bin/make -f CMakeFiles/cmTC_bba6f.dir/build.make CMakeFiles/cmTC_bba6f.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_bba6f.dir/HDFTests.c.o
+/usr/bin/cc   -DHAVE_STRUCT_TM_TM_ZONE  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -o CMakeFiles/cmTC_bba6f.dir/HDFTests.c.o   -c /home/pi/Desktop/nnabla/third_party/hdf5-master/config/cmake_ext_mod/HDFTests.c
+Linking C executable cmTC_bba6f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bba6f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_bba6f.dir/HDFTests.c.o  -o cmTC_bba6f  -lm -ldl 
+/usr/bin/ld: /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o: in function `_start':
+(.text+0x34): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_bba6f.dir/build.make:87: cmTC_bba6f] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_bba6f/fast] エラー 2
+
+
+Performing C SOURCE FILE Test H5_HAVE_STRUCT_VIDEOCONFIG failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0a920/fast && /usr/bin/make -f CMakeFiles/cmTC_0a920.dir/build.make CMakeFiles/cmTC_0a920.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_0a920.dir/src.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DH5_HAVE_STRUCT_VIDEOCONFIG   -o CMakeFiles/cmTC_0a920.dir/src.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp/src.c
+/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp/src.c:5:41: error: dereferencing pointer to incomplete type ‘struct videoconfig’
+   (void)sizeof(((struct videoconfig *)0)->numtextcols);
+                                         ^~
+make[1]: *** [CMakeFiles/cmTC_0a920.dir/build.make:66: CMakeFiles/cmTC_0a920.dir/src.c.o] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_0a920/fast] エラー 2
+
+
+Source file was:
+
+
+int main()
+{
+  (void)sizeof(((struct videoconfig *)0)->numtextcols);
+  return 0;
+}
+
+Performing C SOURCE FILE Test H5_HAVE_STRUCT_TEXT_INFO failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_52b58/fast && /usr/bin/make -f CMakeFiles/cmTC_52b58.dir/build.make CMakeFiles/cmTC_52b58.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_52b58.dir/src.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DH5_HAVE_STRUCT_TEXT_INFO   -o CMakeFiles/cmTC_52b58.dir/src.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp/src.c
+/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp/src.c:5:39: error: dereferencing pointer to incomplete type ‘struct text_info’
+   (void)sizeof(((struct text_info *)0)->screenwidth);
+                                       ^~
+make[1]: *** [CMakeFiles/cmTC_52b58.dir/build.make:66: CMakeFiles/cmTC_52b58.dir/src.c.o] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_52b58/fast] エラー 2
+
+
+Source file was:
+
+
+int main()
+{
+  (void)sizeof(((struct text_info *)0)->screenwidth);
+  return 0;
+}
+
+Determining if the function _getvideoconfig exists failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_108e0/fast && /usr/bin/make -f CMakeFiles/cmTC_108e0.dir/build.make CMakeFiles/cmTC_108e0.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_108e0.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=_getvideoconfig   -o CMakeFiles/cmTC_108e0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_108e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_108e0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_getvideoconfig    CMakeFiles/cmTC_108e0.dir/CheckFunctionExists.c.o  -o cmTC_108e0 
+/usr/bin/ld: CMakeFiles/cmTC_108e0.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_getvideoconfig'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_108e0.dir/build.make:87: cmTC_108e0] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_108e0/fast] エラー 2
+
+
+
+Determining if the function gettextinfo exists failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6f311/fast && /usr/bin/make -f CMakeFiles/cmTC_6f311.dir/build.make CMakeFiles/cmTC_6f311.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_6f311.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=gettextinfo   -o CMakeFiles/cmTC_6f311.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6f311
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f311.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gettextinfo    CMakeFiles/cmTC_6f311.dir/CheckFunctionExists.c.o  -o cmTC_6f311 
+/usr/bin/ld: CMakeFiles/cmTC_6f311.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `gettextinfo'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_6f311.dir/build.make:87: cmTC_6f311] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_6f311/fast] エラー 2
+
+
+
+Determining if the function _scrsize exists failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_47e40/fast && /usr/bin/make -f CMakeFiles/cmTC_47e40.dir/build.make CMakeFiles/cmTC_47e40.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_47e40.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=_scrsize   -o CMakeFiles/cmTC_47e40.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_47e40
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47e40.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_scrsize    CMakeFiles/cmTC_47e40.dir/CheckFunctionExists.c.o  -o cmTC_47e40 
+/usr/bin/ld: CMakeFiles/cmTC_47e40.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_scrsize'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_47e40.dir/build.make:87: cmTC_47e40] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_47e40/fast] エラー 2
+
+
+
+Determining if the function GetConsoleScreenBufferInfo exists failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_08d7b/fast && /usr/bin/make -f CMakeFiles/cmTC_08d7b.dir/build.make CMakeFiles/cmTC_08d7b.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_08d7b.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=GetConsoleScreenBufferInfo   -o CMakeFiles/cmTC_08d7b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_08d7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08d7b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=GetConsoleScreenBufferInfo    CMakeFiles/cmTC_08d7b.dir/CheckFunctionExists.c.o  -o cmTC_08d7b 
+/usr/bin/ld: CMakeFiles/cmTC_08d7b.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `GetConsoleScreenBufferInfo'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_08d7b.dir/build.make:87: cmTC_08d7b] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_08d7b/fast] エラー 2
+
+
+
+Determining if the function llround exists failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_45389/fast && /usr/bin/make -f CMakeFiles/cmTC_45389.dir/build.make CMakeFiles/cmTC_45389.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_45389.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=llround   -o CMakeFiles/cmTC_45389.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘llround’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_45389
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45389.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=llround    CMakeFiles/cmTC_45389.dir/CheckFunctionExists.c.o  -o cmTC_45389 
+/usr/bin/ld: CMakeFiles/cmTC_45389.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `llround'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_45389.dir/build.make:87: cmTC_45389] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_45389/fast] エラー 2
+
+
+
+Determining if the function llroundf exists failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6ce45/fast && /usr/bin/make -f CMakeFiles/cmTC_6ce45.dir/build.make CMakeFiles/cmTC_6ce45.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_6ce45.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=llroundf   -o CMakeFiles/cmTC_6ce45.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘llroundf’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_6ce45
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ce45.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=llroundf    CMakeFiles/cmTC_6ce45.dir/CheckFunctionExists.c.o  -o cmTC_6ce45 
+/usr/bin/ld: CMakeFiles/cmTC_6ce45.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `llroundf'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_6ce45.dir/build.make:87: cmTC_6ce45] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_6ce45/fast] エラー 2
+
+
+
+Determining if the function lround exists failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_eaa46/fast && /usr/bin/make -f CMakeFiles/cmTC_eaa46.dir/build.make CMakeFiles/cmTC_eaa46.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_eaa46.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=lround   -o CMakeFiles/cmTC_eaa46.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘lround’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_eaa46
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eaa46.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=lround    CMakeFiles/cmTC_eaa46.dir/CheckFunctionExists.c.o  -o cmTC_eaa46 
+/usr/bin/ld: CMakeFiles/cmTC_eaa46.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `lround'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_eaa46.dir/build.make:87: cmTC_eaa46] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_eaa46/fast] エラー 2
+
+
+
+Determining if the function lroundf exists failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5cdc6/fast && /usr/bin/make -f CMakeFiles/cmTC_5cdc6.dir/build.make CMakeFiles/cmTC_5cdc6.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_5cdc6.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=lroundf   -o CMakeFiles/cmTC_5cdc6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘lroundf’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_5cdc6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cdc6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=lroundf    CMakeFiles/cmTC_5cdc6.dir/CheckFunctionExists.c.o  -o cmTC_5cdc6 
+/usr/bin/ld: CMakeFiles/cmTC_5cdc6.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `lroundf'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_5cdc6.dir/build.make:87: cmTC_5cdc6] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_5cdc6/fast] エラー 2
+
+
+
+Determining if the function round exists failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_17082/fast && /usr/bin/make -f CMakeFiles/cmTC_17082.dir/build.make CMakeFiles/cmTC_17082.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_17082.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=round   -o CMakeFiles/cmTC_17082.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘round’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_17082
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17082.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=round    CMakeFiles/cmTC_17082.dir/CheckFunctionExists.c.o  -o cmTC_17082 
+/usr/bin/ld: CMakeFiles/cmTC_17082.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `round'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_17082.dir/build.make:87: cmTC_17082] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_17082/fast] エラー 2
+
+
+
+Determining if the function roundf exists failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_705dc/fast && /usr/bin/make -f CMakeFiles/cmTC_705dc.dir/build.make CMakeFiles/cmTC_705dc.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_705dc.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=roundf   -o CMakeFiles/cmTC_705dc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘roundf’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_705dc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_705dc.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=roundf    CMakeFiles/cmTC_705dc.dir/CheckFunctionExists.c.o  -o cmTC_705dc 
+/usr/bin/ld: CMakeFiles/cmTC_705dc.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `roundf'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_705dc.dir/build.make:87: cmTC_705dc] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_705dc/fast] エラー 2
+
+
+
+Determining if the function setsysinfo exists failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_10006/fast && /usr/bin/make -f CMakeFiles/cmTC_10006.dir/build.make CMakeFiles/cmTC_10006.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_10006.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=setsysinfo   -o CMakeFiles/cmTC_10006.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_10006
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10006.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setsysinfo    CMakeFiles/cmTC_10006.dir/CheckFunctionExists.c.o  -o cmTC_10006 
+/usr/bin/ld: CMakeFiles/cmTC_10006.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `setsysinfo'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_10006.dir/build.make:87: cmTC_10006] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_10006/fast] エラー 2
+
+
+
+Determining if the function sigsetjmp exists failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5ff16/fast && /usr/bin/make -f CMakeFiles/cmTC_5ff16.dir/build.make CMakeFiles/cmTC_5ff16.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_5ff16.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=sigsetjmp   -o CMakeFiles/cmTC_5ff16.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5ff16
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ff16.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigsetjmp    CMakeFiles/cmTC_5ff16.dir/CheckFunctionExists.c.o  -o cmTC_5ff16 
+/usr/bin/ld: CMakeFiles/cmTC_5ff16.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `sigsetjmp'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_5ff16.dir/build.make:87: cmTC_5ff16] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_5ff16/fast] エラー 2
+
+
+
+Determining if the function clock_gettime exists in the posix4 failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_43db4/fast && /usr/bin/make -f CMakeFiles/cmTC_43db4.dir/build.make CMakeFiles/cmTC_43db4.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_43db4.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTC_43db4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_43db4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43db4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTC_43db4.dir/CheckFunctionExists.c.o  -o cmTC_43db4  -lposix4 
+/usr/bin/ld: -lposix4 が見つかりません
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_43db4.dir/build.make:87: cmTC_43db4] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_43db4/fast] エラー 2
+
+
+
+Determining size of __float128 failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5f641/fast && /usr/bin/make -f CMakeFiles/cmTC_5f641.dir/build.make CMakeFiles/cmTC_5f641.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_5f641.dir/_SIZEOF___FLOAT128.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_5f641.dir/_SIZEOF___FLOAT128.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/_SIZEOF___FLOAT128.c
+/home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/_SIZEOF___FLOAT128.c:23:22: error: ‘__float128’ undeclared here (not in a function); did you mean ‘_Float32x’?
+ #define SIZE (sizeof(__float128))
+                      ^~~~~~~~~~
+/home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/_SIZEOF___FLOAT128.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+make[1]: *** [CMakeFiles/cmTC_5f641.dir/build.make:66: CMakeFiles/cmTC_5f641.dir/_SIZEOF___FLOAT128.c.o] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_5f641/fast] エラー 2
+
+
+/home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/_SIZEOF___FLOAT128.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__float128))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of _Quad failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5d66c/fast && /usr/bin/make -f CMakeFiles/cmTC_5d66c.dir/build.make CMakeFiles/cmTC_5d66c.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_5d66c.dir/_SIZEOF__QUAD.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_5d66c.dir/_SIZEOF__QUAD.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/_SIZEOF__QUAD.c
+/home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/_SIZEOF__QUAD.c:23:22: error: ‘_Quad’ undeclared here (not in a function); did you mean ‘u_quad_t’?
+ #define SIZE (sizeof(_Quad))
+                      ^~~~~
+/home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/_SIZEOF__QUAD.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+make[1]: *** [CMakeFiles/cmTC_5d66c.dir/build.make:66: CMakeFiles/cmTC_5d66c.dir/_SIZEOF__QUAD.c.o] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_5d66c/fast] エラー 2
+
+
+/home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/_SIZEOF__QUAD.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(_Quad))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Test H5_LDOUBLE_TO_LONG_SPECIAL Run failed with the following output and exit code:
+ Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4b4bd/fast && /usr/bin/make -f CMakeFiles/cmTC_4b4bd.dir/build.make CMakeFiles/cmTC_4b4bd.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_4b4bd.dir/ConversionTests.c.o
+/usr/bin/cc   -DH5_LDOUBLE_TO_LONG_SPECIAL_TEST   -o CMakeFiles/cmTC_4b4bd.dir/ConversionTests.c.o   -c /home/pi/Desktop/nnabla/third_party/hdf5-master/config/cmake/ConversionTests.c
+Linking C executable cmTC_4b4bd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b4bd.dir/link.txt --verbose=1
+/usr/bin/cc  -DH5_LDOUBLE_TO_LONG_SPECIAL_TEST    CMakeFiles/cmTC_4b4bd.dir/ConversionTests.c.o  -o cmTC_4b4bd 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Test H5_LONG_TO_LDOUBLE_SPECIAL Run failed with the following output and exit code:
+ Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d2f32/fast && /usr/bin/make -f CMakeFiles/cmTC_d2f32.dir/build.make CMakeFiles/cmTC_d2f32.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_d2f32.dir/ConversionTests.c.o
+/usr/bin/cc   -DH5_LONG_TO_LDOUBLE_SPECIAL_TEST   -o CMakeFiles/cmTC_d2f32.dir/ConversionTests.c.o   -c /home/pi/Desktop/nnabla/third_party/hdf5-master/config/cmake/ConversionTests.c
+/home/pi/Desktop/nnabla/third_party/hdf5-master/config/cmake/ConversionTests.c: In function ‘main’:
+/home/pi/Desktop/nnabla/third_party/hdf5-master/config/cmake/ConversionTests.c:108:10: warning: overflow in conversion from ‘long long int’ to ‘long int’ changes value from ‘18014398509481983’ to ‘-1’ [-Woverflow]
+     ll = 0x003fffffffffffffL;
+          ^~~~~~~~~~~~~~~~~~~
+/home/pi/Desktop/nnabla/third_party/hdf5-master/config/cmake/ConversionTests.c:124:11: warning: conversion from ‘long long unsigned int’ to ‘long unsigned int’ changes value from ‘18446744073709551615’ to ‘4294967295’ [-Woverflow]
+     ull = 0xffffffffffffffffUL;
+           ^~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_d2f32
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2f32.dir/link.txt --verbose=1
+/usr/bin/cc  -DH5_LONG_TO_LDOUBLE_SPECIAL_TEST    CMakeFiles/cmTC_d2f32.dir/ConversionTests.c.o  -o cmTC_d2f32 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Test H5_DISABLE_SOME_LDOUBLE_CONV Run failed with the following output and exit code:
+ Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7ea31/fast && /usr/bin/make -f CMakeFiles/cmTC_7ea31.dir/build.make CMakeFiles/cmTC_7ea31.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_7ea31.dir/ConversionTests.c.o
+/usr/bin/cc   -DH5_DISABLE_SOME_LDOUBLE_CONV_TEST   -o CMakeFiles/cmTC_7ea31.dir/ConversionTests.c.o   -c /home/pi/Desktop/nnabla/third_party/hdf5-master/config/cmake/ConversionTests.c
+Linking C executable cmTC_7ea31
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ea31.dir/link.txt --verbose=1
+/usr/bin/cc  -DH5_DISABLE_SOME_LDOUBLE_CONV_TEST    CMakeFiles/cmTC_7ea31.dir/ConversionTests.c.o  -o cmTC_7ea31 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0a868/fast && /usr/bin/make -f CMakeFiles/cmTC_0a868.dir/build.make CMakeFiles/cmTC_0a868.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_0a868.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_0a868.dir/src.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0a868
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a868.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_0a868.dir/src.c.o  -o cmTC_0a868 
+/usr/bin/ld: CMakeFiles/cmTC_0a868.dir/src.c.o: in function `main':
+src.c:(.text+0x40): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x4c): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x5c): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_0a868.dir/build.make:87: cmTC_0a868] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_0a868/fast] エラー 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5bae6/fast && /usr/bin/make -f CMakeFiles/cmTC_5bae6.dir/build.make CMakeFiles/cmTC_5bae6.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_5bae6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5bae6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5bae6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bae6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_5bae6.dir/CheckFunctionExists.c.o  -o cmTC_5bae6  -lpthreads 
+/usr/bin/ld: -lpthreads が見つかりません
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_5bae6.dir/build.make:87: cmTC_5bae6] エラー 1
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+make: *** [Makefile:121: cmTC_5bae6/fast] エラー 2
+
+
+

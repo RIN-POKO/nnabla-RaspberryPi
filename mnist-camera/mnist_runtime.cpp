@@ -6,20 +6,31 @@
 #include <fstream>
 #include <sstream>
 #include <string>
+#include <csignal> // SIGINT用
 
 using namespace cv;
 using namespace std;
 
-#define OFFSET_X        (104)
-#define OFFSET_Y        (0)
-#define CLIP_WIDTH      (112)
-#define CLIP_HEIGHT     (224)
+#define OFFSET_X (104)
+#define OFFSET_Y (0)
+#define CLIP_WIDTH (112)
+#define CLIP_HEIGHT (224)
 
-#define DNN_WIDTH       (28)
-#define DNN_HEIGHT      (28)
+#define DNN_WIDTH (28)
+#define DNN_HEIGHT (28)
+
+// SIGINTを受け取ったかを管理するフラグ
+volatile sig_atomic_t stopFlag = 0;
+
+// SIGINTハンドラ
+void handleSigint(int signal)
+{
+    stopFlag = 1;
+}
 
 // Function to process the frame
-Mat processFrame(const Mat& frame) {
+Mat processFrame(const Mat &frame)
+{
     Rect roi(OFFSET_X, OFFSET_Y, CLIP_WIDTH, CLIP_HEIGHT);
     Mat croppedFrame = frame(roi);
 
@@ -32,40 +43,47 @@ Mat processFrame(const Mat& frame) {
     return grayFrame;
 }
 
-void read_pgm_mnist(const string &filename, uint8_t *data) {
+void read_pgm_mnist(const string &filename, uint8_t *data)
+{
     ifstream file(filename, ios::binary);
     string buff;
 
     getline(file, buff);
-    if (buff != "P5") throw runtime_error("Only P5 is supported.");
+    if (buff != "P5")
+        throw runtime_error("Only P5 is supported.");
 
     getline(file, buff);
-    while (buff[0] == '#') getline(file, buff);
+    while (buff[0] == '#')
+        getline(file, buff);
 
     stringstream ss(buff);
     int width, height;
     ss >> width >> height;
-    if (width != 28 || height != 28) throw runtime_error("Image size must be 28x28.");
+    if (width != 28 || height != 28)
+        throw runtime_error("Image size must be 28x28.");
 
     getline(file, buff);
     int maxval;
     ss.clear();
     ss.str(buff);
     ss >> maxval;
-    if (maxval != 255) throw runtime_error("maxVal must be 255.");
+    if (maxval != 255)
+        throw runtime_error("maxVal must be 255.");
 
-    file.read(reinterpret_cast<char*>(data), width * height);
-    if (!file) throw runtime_error("Failed to read image data.");
+    file.read(reinterpret_cast<char *>(data), width * height);
+    if (!file)
+        throw runtime_error("Failed to read image data.");
 }
 
-int main(int argc, char *argv[]) {
-    if (argc < 3 || argc > 4) {
-        cerr << "Usage: " << argv[0] << " nnp_file input_image [executor]" << endl;
+int main(int argc, char *argv[])
+{
+    if (argc < 2 || argc > 3)
+    {
+        printf("Usage: %s nnp_file\n", argv[0]);
         return -1;
     }
 
     const string nnp_file(argv[1]);
-    const string input_image(argv[2]);
     string executor_name = (argc == 4) ? argv[3] : "runtime";
 
     nbla::Context cpu_ctx{{"cpu:float"}, "CpuCachedArray", "0"};
@@ -80,26 +98,32 @@ int main(int argc, char *argv[]) {
 
     const string tempFilename = "camera_frame.jpg";
 
-    while (true) {
-        string command = "libcamera-jpeg -o " + tempFilename + " --width 320 --height 240 --nopreview";
-        if (system(command.c_str()) != 0) {
-            cerr << "Failed to capture image with libcamera-jpeg" << endl;
+    while (!stopFlag)
+    {
+        string command = "libcamera-jpeg -o " + tempFilename + " --width 320 --height 240 --nopreview > /dev/null 2>&1";
+        if (system(command.c_str()) != 0)
+        {
+            printf("Failed to capture image with libcamera-jpeg\n");
             break;
         }
 
         Mat frame = imread(tempFilename);
-        if (frame.empty()) {
-            cerr << "Failed to load captured image" << endl;
+        if (frame.empty())
+        {
+            printf("Failed to load captured image\n");
             break;
         }
 
         Mat processedFrame = processFrame(frame);
         imwrite("processed_frame.pgm", processedFrame);
 
-        try {
+        try
+        {
             read_pgm_mnist("processed_frame.pgm", data);
-        } catch (const exception &e) {
-            cerr << "Error reading PGM: " << e.what() << endl;
+        }
+        catch (const exception &e)
+        {
+            printf("Error reading PGM: %s\n", e.what());
             break;
         }
 
@@ -110,22 +134,31 @@ int main(int argc, char *argv[]) {
         int prediction = 0;
         float max_score = -1e10;
 
-        cout << "Prediction scores:";
-        for (int i = 0; i < 10; ++i) {
-            if (y_data[i] > max_score) {
+        printf("Prediction scores:");
+        for (int i = 0; i < 10; ++i)
+        {
+            if (y_data[i] > max_score)
+            {
                 prediction = i;
                 max_score = y_data[i];
             }
-            cout << " " << y_data[i];
+            printf(" %d: %.6f \n", i, y_data[i]);
         }
-        cout << endl << "Prediction: " << prediction << endl;
+        printf("Predicted label: %d (score: %.6f)\n", prediction, max_score);
+        // if (max_score > 0.7f)
+        // {
+        //     printf("Predicted label: %d (score: %.6f)\n", prediction, max_score);
+        // }
+        // else
+        // {
+        //     printf("Predicted label: None\n");
+        // }
 
-        if (waitKey(1000) == 'q') {
-            break;
-        }
+        // 100ms待機
+        // waitKey(100);
     }
 
     nbla::SingletonManager::clear();
+    cout << "プログラムを終了します。" << endl;
     return 0;
 }
-

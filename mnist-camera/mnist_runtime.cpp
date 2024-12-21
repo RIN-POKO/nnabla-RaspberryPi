@@ -44,6 +44,17 @@ Mat processFrame(const Mat &frame)
     return grayFrame;
 }
 
+void convertToMnistFormat(const Mat &image, uint8_t *data)
+{
+    if (image.cols != 28 || image.rows != 28)
+        throw runtime_error("Image size must be 28x28.");
+
+    if (image.type() != CV_8U)
+        throw runtime_error("Image must be single-channel 8-bit.");
+
+    memcpy(data, image.data, 28 * 28 * sizeof(uint8_t));
+}
+
 void read_pgm_mnist(const string &filename, uint8_t *data)
 {
     ifstream file(filename, ios::binary);
@@ -113,17 +124,27 @@ int main(int argc, char *argv[])
         }
 
         Mat processedFrame = processFrame(image);
-        imwrite("processed_frame.pgm", processedFrame);
 
         try
         {
-            read_pgm_mnist("processed_frame.pgm", data);
+            convertToMnistFormat(processedFrame, data);
         }
         catch (const exception &e)
         {
-            printf("Error reading PGM: %s\n", e.what());
+            printf("Error processing image: %s\n", e.what());
             break;
         }
+
+        // imwrite("processed_frame.pgm", processedFrame);
+        // try
+        // {
+        //     read_pgm_mnist("processed_frame.pgm", data);
+        // }
+        // catch (const exception &e)
+        // {
+        //     printf("Error reading PGM: %s\n", e.what());
+        //     break;
+        // }
 
         executor->execute();
 

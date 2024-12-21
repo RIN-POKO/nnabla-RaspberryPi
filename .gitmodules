@@ -1,0 +1,6 @@
+[submodule "mnist-camera/mnist-camera/LCCV"]
+	path = mnist-camera/mnist-camera/LCCV
+	url = https://github.com/kbarni/LCCV.git
+[submodule "mnist-camera/LCCV"]
+	path = mnist-camera/LCCV
+	url = https://github.com/kbarni/LCCV.git

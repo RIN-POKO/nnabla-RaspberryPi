@@ -7,6 +7,7 @@
 #include <sstream>
 #include <string>
 #include <csignal> // SIGINT用
+#include "LCCV/include/lccv.hpp"
 
 using namespace cv;
 using namespace std;
@@ -96,25 +97,22 @@ int main(int argc, char *argv[])
     auto x = executor->get_data_variables().at(0).variable;
     uint8_t *data = x->variable()->cast_data_and_get_pointer<uint8_t>(cpu_ctx);
 
-    const string tempFilename = "camera_frame.jpg";
+    // const string tempFilename = "camera_frame.jpg";
+
+    cv::Mat image;
+    lccv::PiCamera cam;
+    cam.options->photo_width = 320;
+    cam.options->photo_height = 240;
+    cam.options->verbose = true;
 
     while (!stopFlag)
     {
-        string command = "libcamera-jpeg -o " + tempFilename + " --width 320 --height 240 --nopreview > /dev/null 2>&1";
-        if (system(command.c_str()) != 0)
+        if (!cam.capturePhoto(image))
         {
-            printf("Failed to capture image with libcamera-jpeg\n");
-            break;
+            std::cout << "Camera error" << std::endl;
         }
 
-        Mat frame = imread(tempFilename);
-        if (frame.empty())
-        {
-            printf("Failed to load captured image\n");
-            break;
-        }
-
-        Mat processedFrame = processFrame(frame);
+        Mat processedFrame = processFrame(image);
         imwrite("processed_frame.pgm", processedFrame);
 
         try

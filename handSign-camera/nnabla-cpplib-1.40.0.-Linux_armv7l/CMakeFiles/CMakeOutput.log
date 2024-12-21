@@ -1,0 +1,2248 @@
+The system is: Linux - 5.10.103-v7l+ - armv7l
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/pi/Desktop/nnabla/build/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/pi/Desktop/nnabla/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_08523/fast && /usr/bin/make -f CMakeFiles/cmTC_08523.dir/build.make CMakeFiles/cmTC_08523.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_08523.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_08523.dir/testCCompiler.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_08523
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08523.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_08523.dir/testCCompiler.c.o  -o cmTC_08523 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bf7c0/fast && /usr/bin/make -f CMakeFiles/cmTC_bf7c0.dir/build.make CMakeFiles/cmTC_bf7c0.dir/build
+make[1]: Entering directory '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf7c0.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_bf7c0.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+Target: arm-linux-gnueabihf
+Configured with: ../src/configure -v --with-pkgversion='Raspbian 8.3.0-6+rpi1' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=arm-linux-gnueabihf- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-sjlj-exceptions --with-arch=armv6 --with-fpu=vfp --with-float=hard --disable-werror --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf
+Thread model: posix
+gcc version 8.3.0 (Raspbian 8.3.0-6+rpi1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bf7c0.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp'
+ /usr/lib/gcc/arm-linux-gnueabihf/8/cc1 -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mfloat-abi=hard -mfpu=vfp -mtls-dialect=gnu -marm -march=armv6+fp -auxbase-strip CMakeFiles/cmTC_bf7c0.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccGZQEte.s
+GNU C17 (Raspbian 8.3.0-6+rpi1) version 8.3.0 (arm-linux-gnueabihf)
+	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/arm-linux-gnueabihf"
+ignoring nonexistent directory "/usr/lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/arm-linux-gnueabihf/8/include
+ /usr/local/include
+ /usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed
+ /usr/include/arm-linux-gnueabihf
+ /usr/include
+End of search list.
+GNU C17 (Raspbian 8.3.0-6+rpi1) version 8.3.0 (arm-linux-gnueabihf)
+	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: bcc8c085e8c103b65550a3bb7c44a354
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bf7c0.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp'
+ as -v -march=armv6 -mfloat-abi=hard -mfpu=vfp -meabi=5 -o CMakeFiles/cmTC_bf7c0.dir/CMakeCCompilerABI.c.o /tmp/ccGZQEte.s
+GNU assembler version 2.31.1 (arm-linux-gnueabihf) using BFD version (GNU Binutils for Raspbian) 2.31.1
+COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/
+LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bf7c0.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp'
+Linking C executable cmTC_bf7c0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf7c0.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_bf7c0.dir/CMakeCCompilerABI.c.o  -o cmTC_bf7c0 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper
+Target: arm-linux-gnueabihf
+Configured with: ../src/configure -v --with-pkgversion='Raspbian 8.3.0-6+rpi1' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=arm-linux-gnueabihf- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-sjlj-exceptions --with-arch=armv6 --with-fpu=vfp --with-float=hard --disable-werror --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf
+Thread model: posix
+gcc version 8.3.0 (Raspbian 8.3.0-6+rpi1) 
+COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/
+LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_bf7c0'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp'
+ /usr/lib/gcc/arm-linux-gnueabihf/8/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccb4zA4e.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_bf7c0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/8 -L/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/8/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_bf7c0.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_bf7c0'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp'
+make[1]: Leaving directory '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/arm-linux-gnueabihf/8/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed]
+    add: [/usr/include/arm-linux-gnueabihf]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/arm-linux-gnueabihf/8/include] ==> [/usr/lib/gcc/arm-linux-gnueabihf/8/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed] ==> [/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed]
+  collapse include dir [/usr/include/arm-linux-gnueabihf] ==> [/usr/include/arm-linux-gnueabihf]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/arm-linux-gnueabihf/8/include;/usr/local/include;/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed;/usr/include/arm-linux-gnueabihf;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_bf7c0/fast && /usr/bin/make -f CMakeFiles/cmTC_bf7c0.dir/build.make CMakeFiles/cmTC_bf7c0.dir/build]
+  ignore line: [make[1]: Entering directory '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_bf7c0.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_bf7c0.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Raspbian 8.3.0-6+rpi1' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=arm-linux-gnueabihf- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-sjlj-exceptions --with-arch=armv6 --with-fpu=vfp --with-float=hard --disable-werror --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (Raspbian 8.3.0-6+rpi1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bf7c0.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp']
+  ignore line: [ /usr/lib/gcc/arm-linux-gnueabihf/8/cc1 -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mfloat-abi=hard -mfpu=vfp -mtls-dialect=gnu -marm -march=armv6+fp -auxbase-strip CMakeFiles/cmTC_bf7c0.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccGZQEte.s]
+  ignore line: [GNU C17 (Raspbian 8.3.0-6+rpi1) version 8.3.0 (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 8.3.0  GMP version 6.1.2  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/arm-linux-gnueabihf"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/arm-linux-gnueabihf/8/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed]
+  ignore line: [ /usr/include/arm-linux-gnueabihf]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Raspbian 8.3.0-6+rpi1) version 8.3.0 (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 8.3.0  GMP version 6.1.2  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: bcc8c085e8c103b65550a3bb7c44a354]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bf7c0.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp']
+  ignore line: [ as -v -march=armv6 -mfloat-abi=hard -mfpu=vfp -meabi=5 -o CMakeFiles/cmTC_bf7c0.dir/CMakeCCompilerABI.c.o /tmp/ccGZQEte.s]
+  ignore line: [GNU assembler version 2.31.1 (arm-linux-gnueabihf) using BFD version (GNU Binutils for Raspbian) 2.31.1]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bf7c0.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp']
+  ignore line: [Linking C executable cmTC_bf7c0]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf7c0.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_bf7c0.dir/CMakeCCompilerABI.c.o  -o cmTC_bf7c0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Raspbian 8.3.0-6+rpi1' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=arm-linux-gnueabihf- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-sjlj-exceptions --with-arch=armv6 --with-fpu=vfp --with-float=hard --disable-werror --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (Raspbian 8.3.0-6+rpi1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_bf7c0'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp']
+  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/8/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccb4zA4e.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_bf7c0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/8 -L/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/8/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_bf7c0.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o]
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/8/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/8/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccb4zA4e.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_bf7c0] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/8] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/8]
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf]
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/8/../../..] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/8/../../..]
+    arg [-L/lib/arm-linux-gnueabihf] ==> dir [/lib/arm-linux-gnueabihf]
+    arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
+    arg [CMakeFiles/cmTC_bf7c0.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/8] ==> [/usr/lib/gcc/arm-linux-gnueabihf/8]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/8/../../..] ==> [/usr/lib]
+  collapse library dir [/lib/arm-linux-gnueabihf] ==> [/lib/arm-linux-gnueabihf]
+  collapse library dir [/usr/lib/arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/arm-linux-gnueabihf/8;/usr/lib/arm-linux-gnueabihf;/usr/lib;/lib/arm-linux-gnueabihf]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ad2fb/fast && /usr/bin/make -f CMakeFiles/cmTC_ad2fb.dir/build.make CMakeFiles/cmTC_ad2fb.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building CXX object CMakeFiles/cmTC_ad2fb.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_ad2fb.dir/testCXXCompiler.cxx.o -c /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_ad2fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad2fb.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_ad2fb.dir/testCXXCompiler.cxx.o  -o cmTC_ad2fb 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9631e/fast && /usr/bin/make -f CMakeFiles/cmTC_9631e.dir/build.make CMakeFiles/cmTC_9631e.dir/build
+make[1]: Entering directory '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9631e.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_9631e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+Target: arm-linux-gnueabihf
+Configured with: ../src/configure -v --with-pkgversion='Raspbian 8.3.0-6+rpi1' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=arm-linux-gnueabihf- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-sjlj-exceptions --with-arch=armv6 --with-fpu=vfp --with-float=hard --disable-werror --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf
+Thread model: posix
+gcc version 8.3.0 (Raspbian 8.3.0-6+rpi1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9631e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp'
+ /usr/lib/gcc/arm-linux-gnueabihf/8/cc1plus -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mfloat-abi=hard -mfpu=vfp -mtls-dialect=gnu -marm -march=armv6+fp -auxbase-strip CMakeFiles/cmTC_9631e.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccz4Mxj6.s
+GNU C++14 (Raspbian 8.3.0-6+rpi1) version 8.3.0 (arm-linux-gnueabihf)
+	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/arm-linux-gnueabihf/c++/8"
+ignoring nonexistent directory "/usr/local/include/arm-linux-gnueabihf"
+ignoring nonexistent directory "/usr/lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/8
+ /usr/include/arm-linux-gnueabihf/c++/8
+ /usr/include/c++/8/backward
+ /usr/lib/gcc/arm-linux-gnueabihf/8/include
+ /usr/local/include
+ /usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed
+ /usr/include/arm-linux-gnueabihf
+ /usr/include
+End of search list.
+GNU C++14 (Raspbian 8.3.0-6+rpi1) version 8.3.0 (arm-linux-gnueabihf)
+	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 7defdc925cf5fede452fc531d54623d1
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9631e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp'
+ as -v -march=armv6 -mfloat-abi=hard -mfpu=vfp -meabi=5 -o CMakeFiles/cmTC_9631e.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccz4Mxj6.s
+GNU assembler version 2.31.1 (arm-linux-gnueabihf) using BFD version (GNU Binutils for Raspbian) 2.31.1
+COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/
+LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9631e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp'
+Linking CXX executable cmTC_9631e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9631e.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_9631e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_9631e 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper
+Target: arm-linux-gnueabihf
+Configured with: ../src/configure -v --with-pkgversion='Raspbian 8.3.0-6+rpi1' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=arm-linux-gnueabihf- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-sjlj-exceptions --with-arch=armv6 --with-fpu=vfp --with-float=hard --disable-werror --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf
+Thread model: posix
+gcc version 8.3.0 (Raspbian 8.3.0-6+rpi1) 
+COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/
+LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_9631e' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp'
+ /usr/lib/gcc/arm-linux-gnueabihf/8/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBghJ7g.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_9631e /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/8 -L/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/8/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_9631e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_9631e' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp'
+make[1]: Leaving directory '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/8]
+    add: [/usr/include/arm-linux-gnueabihf/c++/8]
+    add: [/usr/include/c++/8/backward]
+    add: [/usr/lib/gcc/arm-linux-gnueabihf/8/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed]
+    add: [/usr/include/arm-linux-gnueabihf]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/8] ==> [/usr/include/c++/8]
+  collapse include dir [/usr/include/arm-linux-gnueabihf/c++/8] ==> [/usr/include/arm-linux-gnueabihf/c++/8]
+  collapse include dir [/usr/include/c++/8/backward] ==> [/usr/include/c++/8/backward]
+  collapse include dir [/usr/lib/gcc/arm-linux-gnueabihf/8/include] ==> [/usr/lib/gcc/arm-linux-gnueabihf/8/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed] ==> [/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed]
+  collapse include dir [/usr/include/arm-linux-gnueabihf] ==> [/usr/include/arm-linux-gnueabihf]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/8;/usr/include/arm-linux-gnueabihf/c++/8;/usr/include/c++/8/backward;/usr/lib/gcc/arm-linux-gnueabihf/8/include;/usr/local/include;/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed;/usr/include/arm-linux-gnueabihf;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_9631e/fast && /usr/bin/make -f CMakeFiles/cmTC_9631e.dir/build.make CMakeFiles/cmTC_9631e.dir/build]
+  ignore line: [make[1]: Entering directory '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_9631e.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_9631e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Raspbian 8.3.0-6+rpi1' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=arm-linux-gnueabihf- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-sjlj-exceptions --with-arch=armv6 --with-fpu=vfp --with-float=hard --disable-werror --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (Raspbian 8.3.0-6+rpi1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9631e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp']
+  ignore line: [ /usr/lib/gcc/arm-linux-gnueabihf/8/cc1plus -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mfloat-abi=hard -mfpu=vfp -mtls-dialect=gnu -marm -march=armv6+fp -auxbase-strip CMakeFiles/cmTC_9631e.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccz4Mxj6.s]
+  ignore line: [GNU C++14 (Raspbian 8.3.0-6+rpi1) version 8.3.0 (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 8.3.0  GMP version 6.1.2  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/arm-linux-gnueabihf/c++/8"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/arm-linux-gnueabihf"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/8]
+  ignore line: [ /usr/include/arm-linux-gnueabihf/c++/8]
+  ignore line: [ /usr/include/c++/8/backward]
+  ignore line: [ /usr/lib/gcc/arm-linux-gnueabihf/8/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed]
+  ignore line: [ /usr/include/arm-linux-gnueabihf]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Raspbian 8.3.0-6+rpi1) version 8.3.0 (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 8.3.0  GMP version 6.1.2  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 7defdc925cf5fede452fc531d54623d1]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9631e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp']
+  ignore line: [ as -v -march=armv6 -mfloat-abi=hard -mfpu=vfp -meabi=5 -o CMakeFiles/cmTC_9631e.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccz4Mxj6.s]
+  ignore line: [GNU assembler version 2.31.1 (arm-linux-gnueabihf) using BFD version (GNU Binutils for Raspbian) 2.31.1]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9631e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp']
+  ignore line: [Linking CXX executable cmTC_9631e]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9631e.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_9631e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_9631e ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Raspbian 8.3.0-6+rpi1' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=arm-linux-gnueabihf- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-sjlj-exceptions --with-arch=armv6 --with-fpu=vfp --with-float=hard --disable-werror --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (Raspbian 8.3.0-6+rpi1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_9631e' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp']
+  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/8/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBghJ7g.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_9631e /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/8 -L/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/8/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_9631e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o]
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/8/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/8/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccBghJ7g.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_9631e] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/8] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/8]
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf]
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/8/../../..] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/8/../../..]
+    arg [-L/lib/arm-linux-gnueabihf] ==> dir [/lib/arm-linux-gnueabihf]
+    arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
+    arg [CMakeFiles/cmTC_9631e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/8] ==> [/usr/lib/gcc/arm-linux-gnueabihf/8]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/8/../../..] ==> [/usr/lib]
+  collapse library dir [/lib/arm-linux-gnueabihf] ==> [/lib/arm-linux-gnueabihf]
+  collapse library dir [/usr/lib/arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/arm-linux-gnueabihf/8;/usr/lib/arm-linux-gnueabihf;/usr/lib;/lib/arm-linux-gnueabihf]
+  implicit fwks: []
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_44a37/fast && /usr/bin/make -f CMakeFiles/cmTC_44a37.dir/build.make CMakeFiles/cmTC_44a37.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_44a37.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_44a37.dir/CheckIncludeFile.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_44a37
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44a37.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_44a37.dir/CheckIncludeFile.c.o  -o cmTC_44a37 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_83d2c/fast && /usr/bin/make -f CMakeFiles/cmTC_83d2c.dir/build.make CMakeFiles/cmTC_83d2c.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_83d2c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_83d2c.dir/CheckIncludeFile.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_83d2c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83d2c.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_83d2c.dir/CheckIncludeFile.c.o  -o cmTC_83d2c 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_188cd/fast && /usr/bin/make -f CMakeFiles/cmTC_188cd.dir/build.make CMakeFiles/cmTC_188cd.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_188cd.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_188cd.dir/CheckIncludeFile.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_188cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_188cd.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_188cd.dir/CheckIncludeFile.c.o  -o cmTC_188cd 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_50346/fast && /usr/bin/make -f CMakeFiles/cmTC_50346.dir/build.make CMakeFiles/cmTC_50346.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_50346.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_50346.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_50346
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50346.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_50346.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_50346 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_62101/fast && /usr/bin/make -f CMakeFiles/cmTC_62101.dir/build.make CMakeFiles/cmTC_62101.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_62101.dir/TestEndianess.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_62101.dir/TestEndianess.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_62101
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62101.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_62101.dir/TestEndianess.c.o  -o cmTC_62101 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if files ;sys/file.h exist passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_19cdb/fast && /usr/bin/make -f CMakeFiles/cmTC_19cdb.dir/build.make CMakeFiles/cmTC_19cdb.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_19cdb.dir/H5_HAVE_SYS_FILE_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_19cdb.dir/H5_HAVE_SYS_FILE_H.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_SYS_FILE_H.c
+Linking C executable cmTC_19cdb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19cdb.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_19cdb.dir/H5_HAVE_SYS_FILE_H.c.o  -o cmTC_19cdb 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if files sys/file.h;sys/ioctl.h exist passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7eef9/fast && /usr/bin/make -f CMakeFiles/cmTC_7eef9.dir/build.make CMakeFiles/cmTC_7eef9.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_7eef9.dir/H5_HAVE_SYS_IOCTL_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7eef9.dir/H5_HAVE_SYS_IOCTL_H.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_SYS_IOCTL_H.c
+Linking C executable cmTC_7eef9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7eef9.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_7eef9.dir/H5_HAVE_SYS_IOCTL_H.c.o  -o cmTC_7eef9 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h exist passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ddc13/fast && /usr/bin/make -f CMakeFiles/cmTC_ddc13.dir/build.make CMakeFiles/cmTC_ddc13.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_ddc13.dir/H5_HAVE_SYS_RESOURCE_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ddc13.dir/H5_HAVE_SYS_RESOURCE_H.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_SYS_RESOURCE_H.c
+Linking C executable cmTC_ddc13
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddc13.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_ddc13.dir/H5_HAVE_SYS_RESOURCE_H.c.o  -o cmTC_ddc13 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h exist passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8470c/fast && /usr/bin/make -f CMakeFiles/cmTC_8470c.dir/build.make CMakeFiles/cmTC_8470c.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_8470c.dir/H5_HAVE_SYS_SOCKET_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8470c.dir/H5_HAVE_SYS_SOCKET_H.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_SYS_SOCKET_H.c
+Linking C executable cmTC_8470c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8470c.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_8470c.dir/H5_HAVE_SYS_SOCKET_H.c.o  -o cmTC_8470c 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h exist passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4e4df/fast && /usr/bin/make -f CMakeFiles/cmTC_4e4df.dir/build.make CMakeFiles/cmTC_4e4df.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_4e4df.dir/H5_HAVE_SYS_STAT_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4e4df.dir/H5_HAVE_SYS_STAT_H.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_SYS_STAT_H.c
+Linking C executable cmTC_4e4df
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e4df.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_4e4df.dir/H5_HAVE_SYS_STAT_H.c.o  -o cmTC_4e4df 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h exist passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_66dcd/fast && /usr/bin/make -f CMakeFiles/cmTC_66dcd.dir/build.make CMakeFiles/cmTC_66dcd.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_66dcd.dir/H5_HAVE_SYS_TIME_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_66dcd.dir/H5_HAVE_SYS_TIME_H.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_SYS_TIME_H.c
+Linking C executable cmTC_66dcd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66dcd.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_66dcd.dir/H5_HAVE_SYS_TIME_H.c.o  -o cmTC_66dcd 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h exist passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_91a76/fast && /usr/bin/make -f CMakeFiles/cmTC_91a76.dir/build.make CMakeFiles/cmTC_91a76.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_91a76.dir/H5_HAVE_SYS_TYPES_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_91a76.dir/H5_HAVE_SYS_TYPES_H.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_SYS_TYPES_H.c
+Linking C executable cmTC_91a76
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91a76.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_91a76.dir/H5_HAVE_SYS_TYPES_H.c.o  -o cmTC_91a76 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h exist passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_baf44/fast && /usr/bin/make -f CMakeFiles/cmTC_baf44.dir/build.make CMakeFiles/cmTC_baf44.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_baf44.dir/H5_HAVE_FEATURES_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_baf44.dir/H5_HAVE_FEATURES_H.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_FEATURES_H.c
+Linking C executable cmTC_baf44
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_baf44.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_baf44.dir/H5_HAVE_FEATURES_H.c.o  -o cmTC_baf44 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h exist passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4a512/fast && /usr/bin/make -f CMakeFiles/cmTC_4a512.dir/build.make CMakeFiles/cmTC_4a512.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_4a512.dir/H5_HAVE_DIRENT_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4a512.dir/H5_HAVE_DIRENT_H.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_DIRENT_H.c
+Linking C executable cmTC_4a512
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a512.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_4a512.dir/H5_HAVE_DIRENT_H.c.o  -o cmTC_4a512 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;setjmp.h exist passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_98ef4/fast && /usr/bin/make -f CMakeFiles/cmTC_98ef4.dir/build.make CMakeFiles/cmTC_98ef4.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_98ef4.dir/H5_HAVE_SETJMP_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_98ef4.dir/H5_HAVE_SETJMP_H.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_SETJMP_H.c
+Linking C executable cmTC_98ef4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98ef4.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_98ef4.dir/H5_HAVE_SETJMP_H.c.o  -o cmTC_98ef4 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;setjmp.h;stddef.h exist passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ab9aa/fast && /usr/bin/make -f CMakeFiles/cmTC_ab9aa.dir/build.make CMakeFiles/cmTC_ab9aa.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_ab9aa.dir/H5_HAVE_STDDEF_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ab9aa.dir/H5_HAVE_STDDEF_H.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_STDDEF_H.c
+Linking C executable cmTC_ab9aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab9aa.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_ab9aa.dir/H5_HAVE_STDDEF_H.c.o  -o cmTC_ab9aa 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;setjmp.h;stddef.h;stdint.h exist passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_71823/fast && /usr/bin/make -f CMakeFiles/cmTC_71823.dir/build.make CMakeFiles/cmTC_71823.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_71823.dir/H5_HAVE_STDINT_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_71823.dir/H5_HAVE_STDINT_H.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_STDINT_H.c
+Linking C executable cmTC_71823
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71823.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_71823.dir/H5_HAVE_STDINT_H.c.o  -o cmTC_71823 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;setjmp.h;stddef.h;stdint.h;unistd.h exist passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1c054/fast && /usr/bin/make -f CMakeFiles/cmTC_1c054.dir/build.make CMakeFiles/cmTC_1c054.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_1c054.dir/H5_HAVE_UNISTD_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1c054.dir/H5_HAVE_UNISTD_H.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_UNISTD_H.c
+Linking C executable cmTC_1c054
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c054.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_1c054.dir/H5_HAVE_UNISTD_H.c.o  -o cmTC_1c054 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;setjmp.h;stddef.h;stdint.h;unistd.h;pwd.h exist passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6a906/fast && /usr/bin/make -f CMakeFiles/cmTC_6a906.dir/build.make CMakeFiles/cmTC_6a906.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_6a906.dir/H5_HAVE_PWD_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6a906.dir/H5_HAVE_PWD_H.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_PWD_H.c
+Linking C executable cmTC_6a906
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a906.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_6a906.dir/H5_HAVE_PWD_H.c.o  -o cmTC_6a906 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;setjmp.h;stddef.h;stdint.h;unistd.h;pwd.h;pthread.h exist passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_29f21/fast && /usr/bin/make -f CMakeFiles/cmTC_29f21.dir/build.make CMakeFiles/cmTC_29f21.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_29f21.dir/H5_HAVE_PTHREAD_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_29f21.dir/H5_HAVE_PTHREAD_H.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_PTHREAD_H.c
+Linking C executable cmTC_29f21
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29f21.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_29f21.dir/H5_HAVE_PTHREAD_H.c.o  -o cmTC_29f21 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;setjmp.h;stddef.h;stdint.h;unistd.h;pwd.h;pthread.h;string.h exist passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_052bc/fast && /usr/bin/make -f CMakeFiles/cmTC_052bc.dir/build.make CMakeFiles/cmTC_052bc.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_052bc.dir/H5_HAVE_STRING_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_052bc.dir/H5_HAVE_STRING_H.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_STRING_H.c
+Linking C executable cmTC_052bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_052bc.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_052bc.dir/H5_HAVE_STRING_H.c.o  -o cmTC_052bc 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;setjmp.h;stddef.h;stdint.h;unistd.h;pwd.h;pthread.h;string.h;strings.h exist passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2a13a/fast && /usr/bin/make -f CMakeFiles/cmTC_2a13a.dir/build.make CMakeFiles/cmTC_2a13a.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_2a13a.dir/H5_HAVE_STRINGS_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2a13a.dir/H5_HAVE_STRINGS_H.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_STRINGS_H.c
+Linking C executable cmTC_2a13a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a13a.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_2a13a.dir/H5_HAVE_STRINGS_H.c.o  -o cmTC_2a13a 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;setjmp.h;stddef.h;stdint.h;unistd.h;pwd.h;pthread.h;string.h;strings.h;stdlib.h exist passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_10771/fast && /usr/bin/make -f CMakeFiles/cmTC_10771.dir/build.make CMakeFiles/cmTC_10771.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_10771.dir/H5_HAVE_STDLIB_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_10771.dir/H5_HAVE_STDLIB_H.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_STDLIB_H.c
+Linking C executable cmTC_10771
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10771.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_10771.dir/H5_HAVE_STDLIB_H.c.o  -o cmTC_10771 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;setjmp.h;stddef.h;stdint.h;unistd.h;pwd.h;pthread.h;string.h;strings.h;stdlib.h;memory.h exist passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_015d6/fast && /usr/bin/make -f CMakeFiles/cmTC_015d6.dir/build.make CMakeFiles/cmTC_015d6.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_015d6.dir/H5_HAVE_MEMORY_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_015d6.dir/H5_HAVE_MEMORY_H.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_MEMORY_H.c
+Linking C executable cmTC_015d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_015d6.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_015d6.dir/H5_HAVE_MEMORY_H.c.o  -o cmTC_015d6 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;setjmp.h;stddef.h;stdint.h;unistd.h;pwd.h;pthread.h;string.h;strings.h;stdlib.h;memory.h;dlfcn.h exist passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_15021/fast && /usr/bin/make -f CMakeFiles/cmTC_15021.dir/build.make CMakeFiles/cmTC_15021.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_15021.dir/H5_HAVE_DLFCN_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_15021.dir/H5_HAVE_DLFCN_H.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_DLFCN_H.c
+Linking C executable cmTC_15021
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15021.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_15021.dir/H5_HAVE_DLFCN_H.c.o  -o cmTC_15021 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;setjmp.h;stddef.h;stdint.h;unistd.h;pwd.h;pthread.h;string.h;strings.h;stdlib.h;memory.h;dlfcn.h;inttypes.h exist passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1a723/fast && /usr/bin/make -f CMakeFiles/cmTC_1a723.dir/build.make CMakeFiles/cmTC_1a723.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_1a723.dir/H5_HAVE_INTTYPES_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1a723.dir/H5_HAVE_INTTYPES_H.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_INTTYPES_H.c
+Linking C executable cmTC_1a723
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a723.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_1a723.dir/H5_HAVE_INTTYPES_H.c.o  -o cmTC_1a723 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;setjmp.h;stddef.h;stdint.h;unistd.h;pwd.h;pthread.h;string.h;strings.h;stdlib.h;memory.h;dlfcn.h;inttypes.h;netinet/in.h exist passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_575d4/fast && /usr/bin/make -f CMakeFiles/cmTC_575d4.dir/build.make CMakeFiles/cmTC_575d4.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_575d4.dir/H5_HAVE_NETINET_IN_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_575d4.dir/H5_HAVE_NETINET_IN_H.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_NETINET_IN_H.c
+Linking C executable cmTC_575d4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_575d4.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_575d4.dir/H5_HAVE_NETINET_IN_H.c.o  -o cmTC_575d4 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;setjmp.h;stddef.h;stdint.h;unistd.h;pwd.h;pthread.h;string.h;strings.h;stdlib.h;memory.h;dlfcn.h;inttypes.h;netinet/in.h;netdb.h exist passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_35235/fast && /usr/bin/make -f CMakeFiles/cmTC_35235.dir/build.make CMakeFiles/cmTC_35235.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_35235.dir/H5_HAVE_NETDB_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_35235.dir/H5_HAVE_NETDB_H.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_NETDB_H.c
+Linking C executable cmTC_35235
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35235.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_35235.dir/H5_HAVE_NETDB_H.c.o  -o cmTC_35235 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;setjmp.h;stddef.h;stdint.h;unistd.h;pwd.h;pthread.h;string.h;strings.h;stdlib.h;memory.h;dlfcn.h;inttypes.h;netinet/in.h;netdb.h;arpa/inet.h exist passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5d486/fast && /usr/bin/make -f CMakeFiles/cmTC_5d486.dir/build.make CMakeFiles/cmTC_5d486.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_5d486.dir/H5_HAVE_ARPA_INET_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5d486.dir/H5_HAVE_ARPA_INET_H.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_ARPA_INET_H.c
+Linking C executable cmTC_5d486
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d486.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_5d486.dir/H5_HAVE_ARPA_INET_H.c.o  -o cmTC_5d486 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;setjmp.h;stddef.h;stdint.h;unistd.h;pwd.h;pthread.h;string.h;strings.h;stdlib.h;memory.h;dlfcn.h;inttypes.h;netinet/in.h;netdb.h;arpa/inet.h;stdbool.h exist passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d193f/fast && /usr/bin/make -f CMakeFiles/cmTC_d193f.dir/build.make CMakeFiles/cmTC_d193f.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_d193f.dir/H5_HAVE_STDBOOL_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d193f.dir/H5_HAVE_STDBOOL_H.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckIncludeFiles/H5_HAVE_STDBOOL_H.c
+Linking C executable cmTC_d193f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d193f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_d193f.dir/H5_HAVE_STDBOOL_H.c.o  -o cmTC_d193f 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function ceil exists in the m; passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2fee2/fast && /usr/bin/make -f CMakeFiles/cmTC_2fee2.dir/build.make CMakeFiles/cmTC_2fee2.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_2fee2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ceil   -o CMakeFiles/cmTC_2fee2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘ceil’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_2fee2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fee2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=ceil    CMakeFiles/cmTC_2fee2.dir/CheckFunctionExists.c.o  -o cmTC_2fee2  -lm 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function dlopen exists in the dl;m passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_756ec/fast && /usr/bin/make -f CMakeFiles/cmTC_756ec.dir/build.make CMakeFiles/cmTC_756ec.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_756ec.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTC_756ec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_756ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_756ec.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dlopen    CMakeFiles/cmTC_756ec.dir/CheckFunctionExists.c.o  -o cmTC_756ec  -ldl -lm 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function lseek64 exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b5d08/fast && /usr/bin/make -f CMakeFiles/cmTC_b5d08.dir/build.make CMakeFiles/cmTC_b5d08.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_b5d08.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=lseek64   -o CMakeFiles/cmTC_b5d08.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b5d08
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5d08.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=lseek64    CMakeFiles/cmTC_b5d08.dir/CheckFunctionExists.c.o  -o cmTC_b5d08 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_62438/fast && /usr/bin/make -f CMakeFiles/cmTC_62438.dir/build.make CMakeFiles/cmTC_62438.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_62438.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=fseeko   -o CMakeFiles/cmTC_62438.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_62438
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62438.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fseeko    CMakeFiles/cmTC_62438.dir/CheckFunctionExists.c.o  -o cmTC_62438 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Performing C SOURCE FILE Test HAVE_STAT64_STRUCT succeeded with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d7673/fast && /usr/bin/make -f CMakeFiles/cmTC_d7673.dir/build.make CMakeFiles/cmTC_d7673.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_d7673.dir/src.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DHAVE_STAT64_STRUCT   -o CMakeFiles/cmTC_d7673.dir/src.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d7673
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7673.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_STAT64_STRUCT    CMakeFiles/cmTC_d7673.dir/src.c.o  -o cmTC_d7673 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat64 *)0)->st_blocks);
+  return 0;
+}
+
+Determining if the function stat64 exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f0fd3/fast && /usr/bin/make -f CMakeFiles/cmTC_f0fd3.dir/build.make CMakeFiles/cmTC_f0fd3.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_f0fd3.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=stat64   -o CMakeFiles/cmTC_f0fd3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f0fd3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0fd3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=stat64    CMakeFiles/cmTC_f0fd3.dir/CheckFunctionExists.c.o  -o cmTC_f0fd3 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of char passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2b2a9/fast && /usr/bin/make -f CMakeFiles/cmTC_2b2a9.dir/build.make CMakeFiles/cmTC_2b2a9.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_2b2a9.dir/H5_SIZEOF_CHAR.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_2b2a9.dir/H5_SIZEOF_CHAR.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_CHAR.c
+Linking C executable cmTC_2b2a9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b2a9.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_2b2a9.dir/H5_SIZEOF_CHAR.c.o  -o cmTC_2b2a9 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of short passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bf707/fast && /usr/bin/make -f CMakeFiles/cmTC_bf707.dir/build.make CMakeFiles/cmTC_bf707.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_bf707.dir/H5_SIZEOF_SHORT.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_bf707.dir/H5_SIZEOF_SHORT.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_SHORT.c
+Linking C executable cmTC_bf707
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf707.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_bf707.dir/H5_SIZEOF_SHORT.c.o  -o cmTC_bf707 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of int passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6e2bb/fast && /usr/bin/make -f CMakeFiles/cmTC_6e2bb.dir/build.make CMakeFiles/cmTC_6e2bb.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_6e2bb.dir/H5_SIZEOF_INT.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_6e2bb.dir/H5_SIZEOF_INT.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT.c
+Linking C executable cmTC_6e2bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e2bb.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_6e2bb.dir/H5_SIZEOF_INT.c.o  -o cmTC_6e2bb 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of unsigned passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ab313/fast && /usr/bin/make -f CMakeFiles/cmTC_ab313.dir/build.make CMakeFiles/cmTC_ab313.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_ab313.dir/H5_SIZEOF_UNSIGNED.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_ab313.dir/H5_SIZEOF_UNSIGNED.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UNSIGNED.c
+Linking C executable cmTC_ab313
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab313.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_ab313.dir/H5_SIZEOF_UNSIGNED.c.o  -o cmTC_ab313 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1b9ff/fast && /usr/bin/make -f CMakeFiles/cmTC_1b9ff.dir/build.make CMakeFiles/cmTC_1b9ff.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_1b9ff.dir/H5_SIZEOF_LONG.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_1b9ff.dir/H5_SIZEOF_LONG.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_LONG.c
+Linking C executable cmTC_1b9ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b9ff.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_1b9ff.dir/H5_SIZEOF_LONG.c.o  -o cmTC_1b9ff 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f0715/fast && /usr/bin/make -f CMakeFiles/cmTC_f0715.dir/build.make CMakeFiles/cmTC_f0715.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_f0715.dir/H5_SIZEOF_LONG_LONG.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_f0715.dir/H5_SIZEOF_LONG_LONG.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_LONG_LONG.c
+Linking C executable cmTC_f0715
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0715.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f0715.dir/H5_SIZEOF_LONG_LONG.c.o  -o cmTC_f0715 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of float passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9aac3/fast && /usr/bin/make -f CMakeFiles/cmTC_9aac3.dir/build.make CMakeFiles/cmTC_9aac3.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_9aac3.dir/H5_SIZEOF_FLOAT.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_9aac3.dir/H5_SIZEOF_FLOAT.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_FLOAT.c
+Linking C executable cmTC_9aac3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9aac3.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_9aac3.dir/H5_SIZEOF_FLOAT.c.o  -o cmTC_9aac3 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of double passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c92e3/fast && /usr/bin/make -f CMakeFiles/cmTC_c92e3.dir/build.make CMakeFiles/cmTC_c92e3.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_c92e3.dir/H5_SIZEOF_DOUBLE.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_c92e3.dir/H5_SIZEOF_DOUBLE.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_DOUBLE.c
+Linking C executable cmTC_c92e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c92e3.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_c92e3.dir/H5_SIZEOF_DOUBLE.c.o  -o cmTC_c92e3 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of long double passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_263f6/fast && /usr/bin/make -f CMakeFiles/cmTC_263f6.dir/build.make CMakeFiles/cmTC_263f6.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_263f6.dir/H5_SIZEOF_LONG_DOUBLE.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_263f6.dir/H5_SIZEOF_LONG_DOUBLE.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_LONG_DOUBLE.c
+Linking C executable cmTC_263f6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_263f6.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_263f6.dir/H5_SIZEOF_LONG_DOUBLE.c.o  -o cmTC_263f6 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of int8_t passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9f001/fast && /usr/bin/make -f CMakeFiles/cmTC_9f001.dir/build.make CMakeFiles/cmTC_9f001.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_9f001.dir/H5_SIZEOF_INT8_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_9f001.dir/H5_SIZEOF_INT8_T.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT8_T.c
+Linking C executable cmTC_9f001
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f001.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_9f001.dir/H5_SIZEOF_INT8_T.c.o  -o cmTC_9f001 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_921f7/fast && /usr/bin/make -f CMakeFiles/cmTC_921f7.dir/build.make CMakeFiles/cmTC_921f7.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_921f7.dir/H5_SIZEOF_UINT8_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_921f7.dir/H5_SIZEOF_UINT8_T.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT8_T.c
+Linking C executable cmTC_921f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_921f7.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_921f7.dir/H5_SIZEOF_UINT8_T.c.o  -o cmTC_921f7 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of int_least8_t passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9c857/fast && /usr/bin/make -f CMakeFiles/cmTC_9c857.dir/build.make CMakeFiles/cmTC_9c857.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_9c857.dir/H5_SIZEOF_INT_LEAST8_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_9c857.dir/H5_SIZEOF_INT_LEAST8_T.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_LEAST8_T.c
+Linking C executable cmTC_9c857
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c857.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_9c857.dir/H5_SIZEOF_INT_LEAST8_T.c.o  -o cmTC_9c857 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of uint_least8_t passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c914e/fast && /usr/bin/make -f CMakeFiles/cmTC_c914e.dir/build.make CMakeFiles/cmTC_c914e.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_c914e.dir/H5_SIZEOF_UINT_LEAST8_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_c914e.dir/H5_SIZEOF_UINT_LEAST8_T.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_LEAST8_T.c
+Linking C executable cmTC_c914e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c914e.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_c914e.dir/H5_SIZEOF_UINT_LEAST8_T.c.o  -o cmTC_c914e 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of int_fast8_t passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_eb74b/fast && /usr/bin/make -f CMakeFiles/cmTC_eb74b.dir/build.make CMakeFiles/cmTC_eb74b.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_eb74b.dir/H5_SIZEOF_INT_FAST8_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_eb74b.dir/H5_SIZEOF_INT_FAST8_T.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_FAST8_T.c
+Linking C executable cmTC_eb74b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb74b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_eb74b.dir/H5_SIZEOF_INT_FAST8_T.c.o  -o cmTC_eb74b 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of uint_fast8_t passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_eada9/fast && /usr/bin/make -f CMakeFiles/cmTC_eada9.dir/build.make CMakeFiles/cmTC_eada9.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_eada9.dir/H5_SIZEOF_UINT_FAST8_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_eada9.dir/H5_SIZEOF_UINT_FAST8_T.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_FAST8_T.c
+Linking C executable cmTC_eada9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eada9.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_eada9.dir/H5_SIZEOF_UINT_FAST8_T.c.o  -o cmTC_eada9 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of int16_t passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_480c3/fast && /usr/bin/make -f CMakeFiles/cmTC_480c3.dir/build.make CMakeFiles/cmTC_480c3.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_480c3.dir/H5_SIZEOF_INT16_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_480c3.dir/H5_SIZEOF_INT16_T.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT16_T.c
+Linking C executable cmTC_480c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_480c3.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_480c3.dir/H5_SIZEOF_INT16_T.c.o  -o cmTC_480c3 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_49fa8/fast && /usr/bin/make -f CMakeFiles/cmTC_49fa8.dir/build.make CMakeFiles/cmTC_49fa8.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_49fa8.dir/H5_SIZEOF_UINT16_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_49fa8.dir/H5_SIZEOF_UINT16_T.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT16_T.c
+Linking C executable cmTC_49fa8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49fa8.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_49fa8.dir/H5_SIZEOF_UINT16_T.c.o  -o cmTC_49fa8 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of int_least16_t passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f9c14/fast && /usr/bin/make -f CMakeFiles/cmTC_f9c14.dir/build.make CMakeFiles/cmTC_f9c14.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_f9c14.dir/H5_SIZEOF_INT_LEAST16_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_f9c14.dir/H5_SIZEOF_INT_LEAST16_T.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_LEAST16_T.c
+Linking C executable cmTC_f9c14
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9c14.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f9c14.dir/H5_SIZEOF_INT_LEAST16_T.c.o  -o cmTC_f9c14 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of uint_least16_t passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_098c5/fast && /usr/bin/make -f CMakeFiles/cmTC_098c5.dir/build.make CMakeFiles/cmTC_098c5.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_098c5.dir/H5_SIZEOF_UINT_LEAST16_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_098c5.dir/H5_SIZEOF_UINT_LEAST16_T.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_LEAST16_T.c
+Linking C executable cmTC_098c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_098c5.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_098c5.dir/H5_SIZEOF_UINT_LEAST16_T.c.o  -o cmTC_098c5 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of int_fast16_t passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_23ac7/fast && /usr/bin/make -f CMakeFiles/cmTC_23ac7.dir/build.make CMakeFiles/cmTC_23ac7.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_23ac7.dir/H5_SIZEOF_INT_FAST16_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_23ac7.dir/H5_SIZEOF_INT_FAST16_T.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_FAST16_T.c
+Linking C executable cmTC_23ac7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23ac7.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_23ac7.dir/H5_SIZEOF_INT_FAST16_T.c.o  -o cmTC_23ac7 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of uint_fast16_t passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2068a/fast && /usr/bin/make -f CMakeFiles/cmTC_2068a.dir/build.make CMakeFiles/cmTC_2068a.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_2068a.dir/H5_SIZEOF_UINT_FAST16_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_2068a.dir/H5_SIZEOF_UINT_FAST16_T.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_FAST16_T.c
+Linking C executable cmTC_2068a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2068a.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_2068a.dir/H5_SIZEOF_UINT_FAST16_T.c.o  -o cmTC_2068a 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8186a/fast && /usr/bin/make -f CMakeFiles/cmTC_8186a.dir/build.make CMakeFiles/cmTC_8186a.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_8186a.dir/H5_SIZEOF_INT32_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_8186a.dir/H5_SIZEOF_INT32_T.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT32_T.c
+Linking C executable cmTC_8186a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8186a.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_8186a.dir/H5_SIZEOF_INT32_T.c.o  -o cmTC_8186a 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_219c4/fast && /usr/bin/make -f CMakeFiles/cmTC_219c4.dir/build.make CMakeFiles/cmTC_219c4.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_219c4.dir/H5_SIZEOF_UINT32_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_219c4.dir/H5_SIZEOF_UINT32_T.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT32_T.c
+Linking C executable cmTC_219c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_219c4.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_219c4.dir/H5_SIZEOF_UINT32_T.c.o  -o cmTC_219c4 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of int_least32_t passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0b961/fast && /usr/bin/make -f CMakeFiles/cmTC_0b961.dir/build.make CMakeFiles/cmTC_0b961.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_0b961.dir/H5_SIZEOF_INT_LEAST32_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_0b961.dir/H5_SIZEOF_INT_LEAST32_T.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_LEAST32_T.c
+Linking C executable cmTC_0b961
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b961.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_0b961.dir/H5_SIZEOF_INT_LEAST32_T.c.o  -o cmTC_0b961 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of uint_least32_t passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_688ae/fast && /usr/bin/make -f CMakeFiles/cmTC_688ae.dir/build.make CMakeFiles/cmTC_688ae.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_688ae.dir/H5_SIZEOF_UINT_LEAST32_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_688ae.dir/H5_SIZEOF_UINT_LEAST32_T.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_LEAST32_T.c
+Linking C executable cmTC_688ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_688ae.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_688ae.dir/H5_SIZEOF_UINT_LEAST32_T.c.o  -o cmTC_688ae 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of int_fast32_t passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8b364/fast && /usr/bin/make -f CMakeFiles/cmTC_8b364.dir/build.make CMakeFiles/cmTC_8b364.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_8b364.dir/H5_SIZEOF_INT_FAST32_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_8b364.dir/H5_SIZEOF_INT_FAST32_T.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_FAST32_T.c
+Linking C executable cmTC_8b364
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b364.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_8b364.dir/H5_SIZEOF_INT_FAST32_T.c.o  -o cmTC_8b364 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of uint_fast32_t passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4e3ea/fast && /usr/bin/make -f CMakeFiles/cmTC_4e3ea.dir/build.make CMakeFiles/cmTC_4e3ea.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_4e3ea.dir/H5_SIZEOF_UINT_FAST32_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_4e3ea.dir/H5_SIZEOF_UINT_FAST32_T.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_FAST32_T.c
+Linking C executable cmTC_4e3ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e3ea.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_4e3ea.dir/H5_SIZEOF_UINT_FAST32_T.c.o  -o cmTC_4e3ea 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_abe7d/fast && /usr/bin/make -f CMakeFiles/cmTC_abe7d.dir/build.make CMakeFiles/cmTC_abe7d.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_abe7d.dir/H5_SIZEOF_INT64_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_abe7d.dir/H5_SIZEOF_INT64_T.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT64_T.c
+Linking C executable cmTC_abe7d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abe7d.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_abe7d.dir/H5_SIZEOF_INT64_T.c.o  -o cmTC_abe7d 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2a9a2/fast && /usr/bin/make -f CMakeFiles/cmTC_2a9a2.dir/build.make CMakeFiles/cmTC_2a9a2.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_2a9a2.dir/H5_SIZEOF_UINT64_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_2a9a2.dir/H5_SIZEOF_UINT64_T.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT64_T.c
+Linking C executable cmTC_2a9a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a9a2.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_2a9a2.dir/H5_SIZEOF_UINT64_T.c.o  -o cmTC_2a9a2 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of int_least64_t passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a425e/fast && /usr/bin/make -f CMakeFiles/cmTC_a425e.dir/build.make CMakeFiles/cmTC_a425e.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_a425e.dir/H5_SIZEOF_INT_LEAST64_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_a425e.dir/H5_SIZEOF_INT_LEAST64_T.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_LEAST64_T.c
+Linking C executable cmTC_a425e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a425e.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_a425e.dir/H5_SIZEOF_INT_LEAST64_T.c.o  -o cmTC_a425e 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of uint_least64_t passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7ac0c/fast && /usr/bin/make -f CMakeFiles/cmTC_7ac0c.dir/build.make CMakeFiles/cmTC_7ac0c.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_7ac0c.dir/H5_SIZEOF_UINT_LEAST64_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_7ac0c.dir/H5_SIZEOF_UINT_LEAST64_T.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_LEAST64_T.c
+Linking C executable cmTC_7ac0c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ac0c.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_7ac0c.dir/H5_SIZEOF_UINT_LEAST64_T.c.o  -o cmTC_7ac0c 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of int_fast64_t passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a7176/fast && /usr/bin/make -f CMakeFiles/cmTC_a7176.dir/build.make CMakeFiles/cmTC_a7176.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_a7176.dir/H5_SIZEOF_INT_FAST64_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_a7176.dir/H5_SIZEOF_INT_FAST64_T.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_FAST64_T.c
+Linking C executable cmTC_a7176
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7176.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_a7176.dir/H5_SIZEOF_INT_FAST64_T.c.o  -o cmTC_a7176 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of uint_fast64_t passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_97208/fast && /usr/bin/make -f CMakeFiles/cmTC_97208.dir/build.make CMakeFiles/cmTC_97208.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_97208.dir/H5_SIZEOF_UINT_FAST64_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_97208.dir/H5_SIZEOF_UINT_FAST64_T.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_FAST64_T.c
+Linking C executable cmTC_97208
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97208.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_97208.dir/H5_SIZEOF_UINT_FAST64_T.c.o  -o cmTC_97208 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b62a4/fast && /usr/bin/make -f CMakeFiles/cmTC_b62a4.dir/build.make CMakeFiles/cmTC_b62a4.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_b62a4.dir/H5_SIZEOF_SIZE_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_b62a4.dir/H5_SIZEOF_SIZE_T.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_SIZE_T.c
+Linking C executable cmTC_b62a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b62a4.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_b62a4.dir/H5_SIZEOF_SIZE_T.c.o  -o cmTC_b62a4 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1920f/fast && /usr/bin/make -f CMakeFiles/cmTC_1920f.dir/build.make CMakeFiles/cmTC_1920f.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_1920f.dir/H5_SIZEOF_SSIZE_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_1920f.dir/H5_SIZEOF_SSIZE_T.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_SSIZE_T.c
+Linking C executable cmTC_1920f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1920f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_1920f.dir/H5_SIZEOF_SSIZE_T.c.o  -o cmTC_1920f 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of ptrdiff_t passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_95f64/fast && /usr/bin/make -f CMakeFiles/cmTC_95f64.dir/build.make CMakeFiles/cmTC_95f64.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_95f64.dir/H5_SIZEOF_PTRDIFF_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_95f64.dir/H5_SIZEOF_PTRDIFF_T.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_PTRDIFF_T.c
+Linking C executable cmTC_95f64
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95f64.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_95f64.dir/H5_SIZEOF_PTRDIFF_T.c.o  -o cmTC_95f64 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of off_t passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_69e1b/fast && /usr/bin/make -f CMakeFiles/cmTC_69e1b.dir/build.make CMakeFiles/cmTC_69e1b.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_69e1b.dir/H5_SIZEOF_OFF_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_69e1b.dir/H5_SIZEOF_OFF_T.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_OFF_T.c
+Linking C executable cmTC_69e1b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69e1b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_69e1b.dir/H5_SIZEOF_OFF_T.c.o  -o cmTC_69e1b 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of off64_t passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_39c59/fast && /usr/bin/make -f CMakeFiles/cmTC_39c59.dir/build.make CMakeFiles/cmTC_39c59.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_39c59.dir/H5_SIZEOF_OFF64_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_39c59.dir/H5_SIZEOF_OFF64_T.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_OFF64_T.c
+Linking C executable cmTC_39c59
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39c59.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_39c59.dir/H5_SIZEOF_OFF64_T.c.o  -o cmTC_39c59 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of time_t passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4a663/fast && /usr/bin/make -f CMakeFiles/cmTC_4a663.dir/build.make CMakeFiles/cmTC_4a663.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_4a663.dir/H5_SIZEOF_TIME_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_4a663.dir/H5_SIZEOF_TIME_T.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_TIME_T.c
+Linking C executable cmTC_4a663
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a663.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_4a663.dir/H5_SIZEOF_TIME_T.c.o  -o cmTC_4a663 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining size of _Bool passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c379b/fast && /usr/bin/make -f CMakeFiles/cmTC_c379b.dir/build.make CMakeFiles/cmTC_c379b.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_c379b.dir/H5_SIZEOF_BOOL.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_c379b.dir/H5_SIZEOF_BOOL.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_BOOL.c
+Linking C executable cmTC_c379b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c379b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_c379b.dir/H5_SIZEOF_BOOL.c.o  -o cmTC_c379b 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Performing C SOURCE FILE Test H5_HAVE_TM_GMTOFF succeeded with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2239c/fast && /usr/bin/make -f CMakeFiles/cmTC_2239c.dir/build.make CMakeFiles/cmTC_2239c.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_2239c.dir/src.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DH5_HAVE_TM_GMTOFF   -o CMakeFiles/cmTC_2239c.dir/src.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2239c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2239c.dir/link.txt --verbose=1
+/usr/bin/cc  -DH5_HAVE_TM_GMTOFF    CMakeFiles/cmTC_2239c.dir/src.c.o  -o cmTC_2239c 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Source file was:
+
+#include <time.h>
+
+int main()
+{
+  (void)sizeof(((struct tm *)0)->tm_gmtoff);
+  return 0;
+}
+
+Performing C SOURCE FILE Test H5_TIME_WITH_SYS_TIME succeeded with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1c1c5/fast && /usr/bin/make -f CMakeFiles/cmTC_1c1c5.dir/build.make CMakeFiles/cmTC_1c1c5.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_1c1c5.dir/src.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DH5_TIME_WITH_SYS_TIME   -o CMakeFiles/cmTC_1c1c5.dir/src.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1c1c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c1c5.dir/link.txt --verbose=1
+/usr/bin/cc  -DH5_TIME_WITH_SYS_TIME    CMakeFiles/cmTC_1c1c5.dir/src.c.o  -o cmTC_1c1c5 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/time.h>
+#include <time.h>
+
+int main()
+{
+  (void)sizeof(((struct tm *)0)->tm_sec);
+  return 0;
+}
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1f90b/fast && /usr/bin/make -f CMakeFiles/cmTC_1f90b.dir/build.make CMakeFiles/cmTC_1f90b.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_1f90b.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=gettimeofday   -o CMakeFiles/cmTC_1f90b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1f90b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f90b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gettimeofday    CMakeFiles/cmTC_1f90b.dir/CheckFunctionExists.c.o  -o cmTC_1f90b 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Performing C SOURCE FILE Test H5_HAVE_STAT_ST_BLOCKS succeeded with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4e2a5/fast && /usr/bin/make -f CMakeFiles/cmTC_4e2a5.dir/build.make CMakeFiles/cmTC_4e2a5.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_4e2a5.dir/src.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DH5_HAVE_STAT_ST_BLOCKS   -o CMakeFiles/cmTC_4e2a5.dir/src.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4e2a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e2a5.dir/link.txt --verbose=1
+/usr/bin/cc  -DH5_HAVE_STAT_ST_BLOCKS    CMakeFiles/cmTC_4e2a5.dir/src.c.o  -o cmTC_4e2a5 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_blocks);
+  return 0;
+}
+
+Determining if the function ioctl exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4973b/fast && /usr/bin/make -f CMakeFiles/cmTC_4973b.dir/build.make CMakeFiles/cmTC_4973b.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_4973b.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=ioctl   -o CMakeFiles/cmTC_4973b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4973b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4973b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=ioctl    CMakeFiles/cmTC_4973b.dir/CheckFunctionExists.c.o  -o cmTC_4973b 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the TIOCGWINSZ exist passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f4c68/fast && /usr/bin/make -f CMakeFiles/cmTC_f4c68.dir/build.make CMakeFiles/cmTC_f4c68.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_f4c68.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_f4c68.dir/CheckSymbolExists.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f4c68
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4c68.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f4c68.dir/CheckSymbolExists.c.o  -o cmTC_f4c68 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+File /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/ioctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TIOCGWINSZ
+  return ((int*)(&TIOCGWINSZ))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the TIOCGETD exist passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3d071/fast && /usr/bin/make -f CMakeFiles/cmTC_3d071.dir/build.make CMakeFiles/cmTC_3d071.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_3d071.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_3d071.dir/CheckSymbolExists.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3d071
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d071.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_3d071.dir/CheckSymbolExists.c.o  -o cmTC_3d071 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+File /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/ioctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TIOCGETD
+  return ((int*)(&TIOCGETD))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function getpwuid exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bb2f4/fast && /usr/bin/make -f CMakeFiles/cmTC_bb2f4.dir/build.make CMakeFiles/cmTC_bb2f4.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_bb2f4.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=getpwuid   -o CMakeFiles/cmTC_bb2f4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bb2f4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb2f4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getpwuid    CMakeFiles/cmTC_bb2f4.dir/CheckFunctionExists.c.o  -o cmTC_bb2f4 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function alarm exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_64da0/fast && /usr/bin/make -f CMakeFiles/cmTC_64da0.dir/build.make CMakeFiles/cmTC_64da0.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_64da0.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=alarm   -o CMakeFiles/cmTC_64da0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_64da0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64da0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=alarm    CMakeFiles/cmTC_64da0.dir/CheckFunctionExists.c.o  -o cmTC_64da0 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function fcntl exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_88260/fast && /usr/bin/make -f CMakeFiles/cmTC_88260.dir/build.make CMakeFiles/cmTC_88260.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_88260.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=fcntl   -o CMakeFiles/cmTC_88260.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_88260
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88260.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fcntl    CMakeFiles/cmTC_88260.dir/CheckFunctionExists.c.o  -o cmTC_88260 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function flock exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b776f/fast && /usr/bin/make -f CMakeFiles/cmTC_b776f.dir/build.make CMakeFiles/cmTC_b776f.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_b776f.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=flock   -o CMakeFiles/cmTC_b776f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b776f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b776f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=flock    CMakeFiles/cmTC_b776f.dir/CheckFunctionExists.c.o  -o cmTC_b776f 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function fork exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2f701/fast && /usr/bin/make -f CMakeFiles/cmTC_2f701.dir/build.make CMakeFiles/cmTC_2f701.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_2f701.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=fork   -o CMakeFiles/cmTC_2f701.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘fork’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_2f701
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f701.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fork    CMakeFiles/cmTC_2f701.dir/CheckFunctionExists.c.o  -o cmTC_2f701 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function frexpf exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f80e1/fast && /usr/bin/make -f CMakeFiles/cmTC_f80e1.dir/build.make CMakeFiles/cmTC_f80e1.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_f80e1.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=frexpf   -o CMakeFiles/cmTC_f80e1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘frexpf’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_f80e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f80e1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=frexpf    CMakeFiles/cmTC_f80e1.dir/CheckFunctionExists.c.o  -o cmTC_f80e1 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function frexpl exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6aed8/fast && /usr/bin/make -f CMakeFiles/cmTC_6aed8.dir/build.make CMakeFiles/cmTC_6aed8.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_6aed8.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=frexpl   -o CMakeFiles/cmTC_6aed8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘frexpl’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_6aed8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6aed8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=frexpl    CMakeFiles/cmTC_6aed8.dir/CheckFunctionExists.c.o  -o cmTC_6aed8 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function gethostname exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b8a97/fast && /usr/bin/make -f CMakeFiles/cmTC_b8a97.dir/build.make CMakeFiles/cmTC_b8a97.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_b8a97.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=gethostname   -o CMakeFiles/cmTC_b8a97.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b8a97
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8a97.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostname    CMakeFiles/cmTC_b8a97.dir/CheckFunctionExists.c.o  -o cmTC_b8a97 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function getrusage exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_27a82/fast && /usr/bin/make -f CMakeFiles/cmTC_27a82.dir/build.make CMakeFiles/cmTC_27a82.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_27a82.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=getrusage   -o CMakeFiles/cmTC_27a82.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_27a82
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27a82.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getrusage    CMakeFiles/cmTC_27a82.dir/CheckFunctionExists.c.o  -o cmTC_27a82 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function lstat exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b5ea9/fast && /usr/bin/make -f CMakeFiles/cmTC_b5ea9.dir/build.make CMakeFiles/cmTC_b5ea9.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_b5ea9.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=lstat   -o CMakeFiles/cmTC_b5ea9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b5ea9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5ea9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=lstat    CMakeFiles/cmTC_b5ea9.dir/CheckFunctionExists.c.o  -o cmTC_b5ea9 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function pread exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_91f42/fast && /usr/bin/make -f CMakeFiles/cmTC_91f42.dir/build.make CMakeFiles/cmTC_91f42.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_91f42.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=pread   -o CMakeFiles/cmTC_91f42.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_91f42
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91f42.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pread    CMakeFiles/cmTC_91f42.dir/CheckFunctionExists.c.o  -o cmTC_91f42 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function pwrite exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_76374/fast && /usr/bin/make -f CMakeFiles/cmTC_76374.dir/build.make CMakeFiles/cmTC_76374.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_76374.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=pwrite   -o CMakeFiles/cmTC_76374.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_76374
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76374.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pwrite    CMakeFiles/cmTC_76374.dir/CheckFunctionExists.c.o  -o cmTC_76374 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function rand_r exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1e4b1/fast && /usr/bin/make -f CMakeFiles/cmTC_1e4b1.dir/build.make CMakeFiles/cmTC_1e4b1.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_1e4b1.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=rand_r   -o CMakeFiles/cmTC_1e4b1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1e4b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e4b1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=rand_r    CMakeFiles/cmTC_1e4b1.dir/CheckFunctionExists.c.o  -o cmTC_1e4b1 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function random exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_18cff/fast && /usr/bin/make -f CMakeFiles/cmTC_18cff.dir/build.make CMakeFiles/cmTC_18cff.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_18cff.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=random   -o CMakeFiles/cmTC_18cff.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_18cff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18cff.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=random    CMakeFiles/cmTC_18cff.dir/CheckFunctionExists.c.o  -o cmTC_18cff 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function signal exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_383ea/fast && /usr/bin/make -f CMakeFiles/cmTC_383ea.dir/build.make CMakeFiles/cmTC_383ea.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_383ea.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=signal   -o CMakeFiles/cmTC_383ea.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_383ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_383ea.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=signal    CMakeFiles/cmTC_383ea.dir/CheckFunctionExists.c.o  -o cmTC_383ea 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function longjmp exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3b723/fast && /usr/bin/make -f CMakeFiles/cmTC_3b723.dir/build.make CMakeFiles/cmTC_3b723.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_3b723.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=longjmp   -o CMakeFiles/cmTC_3b723.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3b723
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b723.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=longjmp    CMakeFiles/cmTC_3b723.dir/CheckFunctionExists.c.o  -o cmTC_3b723 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function setjmp exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_035ad/fast && /usr/bin/make -f CMakeFiles/cmTC_035ad.dir/build.make CMakeFiles/cmTC_035ad.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_035ad.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=setjmp   -o CMakeFiles/cmTC_035ad.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_035ad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_035ad.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setjmp    CMakeFiles/cmTC_035ad.dir/CheckFunctionExists.c.o  -o cmTC_035ad 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function siglongjmp exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e8f17/fast && /usr/bin/make -f CMakeFiles/cmTC_e8f17.dir/build.make CMakeFiles/cmTC_e8f17.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_e8f17.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=siglongjmp   -o CMakeFiles/cmTC_e8f17.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e8f17
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8f17.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=siglongjmp    CMakeFiles/cmTC_e8f17.dir/CheckFunctionExists.c.o  -o cmTC_e8f17 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function sigprocmask exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2e623/fast && /usr/bin/make -f CMakeFiles/cmTC_2e623.dir/build.make CMakeFiles/cmTC_2e623.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_2e623.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=sigprocmask   -o CMakeFiles/cmTC_2e623.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2e623
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e623.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigprocmask    CMakeFiles/cmTC_2e623.dir/CheckFunctionExists.c.o  -o cmTC_2e623 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function snprintf exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d3ad6/fast && /usr/bin/make -f CMakeFiles/cmTC_d3ad6.dir/build.make CMakeFiles/cmTC_d3ad6.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_d3ad6.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=snprintf   -o CMakeFiles/cmTC_d3ad6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘snprintf’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_d3ad6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3ad6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=snprintf    CMakeFiles/cmTC_d3ad6.dir/CheckFunctionExists.c.o  -o cmTC_d3ad6 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function srandom exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_07f33/fast && /usr/bin/make -f CMakeFiles/cmTC_07f33.dir/build.make CMakeFiles/cmTC_07f33.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_07f33.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=srandom   -o CMakeFiles/cmTC_07f33.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_07f33
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07f33.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=srandom    CMakeFiles/cmTC_07f33.dir/CheckFunctionExists.c.o  -o cmTC_07f33 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function strdup exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c405e/fast && /usr/bin/make -f CMakeFiles/cmTC_c405e.dir/build.make CMakeFiles/cmTC_c405e.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_c405e.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=strdup   -o CMakeFiles/cmTC_c405e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘strdup’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_c405e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c405e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strdup    CMakeFiles/cmTC_c405e.dir/CheckFunctionExists.c.o  -o cmTC_c405e 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d3b8d/fast && /usr/bin/make -f CMakeFiles/cmTC_d3b8d.dir/build.make CMakeFiles/cmTC_d3b8d.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_d3b8d.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=strtoll   -o CMakeFiles/cmTC_d3b8d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d3b8d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3b8d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strtoll    CMakeFiles/cmTC_d3b8d.dir/CheckFunctionExists.c.o  -o cmTC_d3b8d 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1c34c/fast && /usr/bin/make -f CMakeFiles/cmTC_1c34c.dir/build.make CMakeFiles/cmTC_1c34c.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_1c34c.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=strtoull   -o CMakeFiles/cmTC_1c34c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1c34c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c34c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strtoull    CMakeFiles/cmTC_1c34c.dir/CheckFunctionExists.c.o  -o cmTC_1c34c 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function symlink exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fd7fb/fast && /usr/bin/make -f CMakeFiles/cmTC_fd7fb.dir/build.make CMakeFiles/cmTC_fd7fb.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_fd7fb.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=symlink   -o CMakeFiles/cmTC_fd7fb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fd7fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd7fb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=symlink    CMakeFiles/cmTC_fd7fb.dir/CheckFunctionExists.c.o  -o cmTC_fd7fb 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function system exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c25c8/fast && /usr/bin/make -f CMakeFiles/cmTC_c25c8.dir/build.make CMakeFiles/cmTC_c25c8.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_c25c8.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=system   -o CMakeFiles/cmTC_c25c8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c25c8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c25c8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=system    CMakeFiles/cmTC_c25c8.dir/CheckFunctionExists.c.o  -o cmTC_c25c8 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function tmpfile exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a92a6/fast && /usr/bin/make -f CMakeFiles/cmTC_a92a6.dir/build.make CMakeFiles/cmTC_a92a6.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_a92a6.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=tmpfile   -o CMakeFiles/cmTC_a92a6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a92a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a92a6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=tmpfile    CMakeFiles/cmTC_a92a6.dir/CheckFunctionExists.c.o  -o cmTC_a92a6 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function asprintf exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cf854/fast && /usr/bin/make -f CMakeFiles/cmTC_cf854.dir/build.make CMakeFiles/cmTC_cf854.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_cf854.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=asprintf   -o CMakeFiles/cmTC_cf854.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cf854
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf854.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=asprintf    CMakeFiles/cmTC_cf854.dir/CheckFunctionExists.c.o  -o cmTC_cf854 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function vasprintf exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f613b/fast && /usr/bin/make -f CMakeFiles/cmTC_f613b.dir/build.make CMakeFiles/cmTC_f613b.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_f613b.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=vasprintf   -o CMakeFiles/cmTC_f613b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f613b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f613b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=vasprintf    CMakeFiles/cmTC_f613b.dir/CheckFunctionExists.c.o  -o cmTC_f613b 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function waitpid exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_42bd1/fast && /usr/bin/make -f CMakeFiles/cmTC_42bd1.dir/build.make CMakeFiles/cmTC_42bd1.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_42bd1.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=waitpid   -o CMakeFiles/cmTC_42bd1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_42bd1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42bd1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=waitpid    CMakeFiles/cmTC_42bd1.dir/CheckFunctionExists.c.o  -o cmTC_42bd1 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3b278/fast && /usr/bin/make -f CMakeFiles/cmTC_3b278.dir/build.make CMakeFiles/cmTC_3b278.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_3b278.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=vsnprintf   -o CMakeFiles/cmTC_3b278.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘vsnprintf’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_3b278
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b278.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=vsnprintf    CMakeFiles/cmTC_3b278.dir/CheckFunctionExists.c.o  -o cmTC_3b278 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the sigsetjmp exist passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5d72e/fast && /usr/bin/make -f CMakeFiles/cmTC_5d72e.dir/build.make CMakeFiles/cmTC_5d72e.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_5d72e.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_5d72e.dir/CheckSymbolExists.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5d72e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d72e.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_5d72e.dir/CheckSymbolExists.c.o  -o cmTC_5d72e 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+File /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <setjmp.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigsetjmp
+  return ((int*)(&sigsetjmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function difftime exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f76d1/fast && /usr/bin/make -f CMakeFiles/cmTC_f76d1.dir/build.make CMakeFiles/cmTC_f76d1.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_f76d1.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=difftime   -o CMakeFiles/cmTC_f76d1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f76d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f76d1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=difftime    CMakeFiles/cmTC_f76d1.dir/CheckFunctionExists.c.o  -o cmTC_f76d1 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function clock_gettime exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fe3ca/fast && /usr/bin/make -f CMakeFiles/cmTC_fe3ca.dir/build.make CMakeFiles/cmTC_fe3ca.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_fe3ca.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTC_fe3ca.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fe3ca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe3ca.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTC_fe3ca.dir/CheckFunctionExists.c.o  -o cmTC_fe3ca 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3de80/fast && /usr/bin/make -f CMakeFiles/cmTC_3de80.dir/build.make CMakeFiles/cmTC_3de80.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_3de80.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTC_3de80.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3de80
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3de80.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTC_3de80.dir/CheckFunctionExists.c.o  -o cmTC_3de80  -lrt 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the C maximum decimal precision for C exists passed with the following output:
+17;0;
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e55ae/fast && /usr/bin/make -f CMakeFiles/cmTC_e55ae.dir/build.make CMakeFiles/cmTC_e55ae.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_e55ae.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e55ae.dir/CheckIncludeFile.c.o   -c /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e55ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e55ae.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_e55ae.dir/CheckIncludeFile.c.o  -o cmTC_e55ae 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d2365/fast && /usr/bin/make -f CMakeFiles/cmTC_d2365.dir/build.make CMakeFiles/cmTC_d2365.dir/build
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_d2365.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d2365.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d2365
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2365.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_d2365.dir/CheckFunctionExists.c.o  -o cmTC_d2365  -lpthread 
+make[1]: ディレクトリ '/home/pi/Desktop/nnabla/build/CMakeFiles/CMakeTmp' から出ます
+
+
+

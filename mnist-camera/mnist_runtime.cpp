@@ -141,6 +141,8 @@ int main(int argc, char *argv[])
 
         Mat processedFrame = processFrame(image);
 
+        cv::imshow("Video1", processedFrame);
+
         try
         {
             convertToMnistFormat(processedFrame, data);
@@ -179,15 +181,15 @@ int main(int argc, char *argv[])
             }
             printf(" %d: %.6f \n", i, y_data[i]);
         }
-        // printf("Predicted label: %d (score: %.6f)\n", prediction, max_score);
-        if (max_score > 0.7f)
-        {
-            printf("Predicted label: %d (score: %.6f)\n", prediction, max_score);
-        }
-        else
-        {
-            printf("Predicted label: None\n");
-        }
+        printf("Predicted label: %d (score: %.6f)\n", prediction, max_score);
+        // if (max_score > 0.7f)
+        // {
+        //     printf("Predicted label: %d (score: %.6f)\n", prediction, max_score);
+        // }
+        // else
+        // {
+        //     printf("Predicted label: None\n");
+        // }
         waitKey(100);
     }
 

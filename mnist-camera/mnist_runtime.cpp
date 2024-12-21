@@ -8,9 +8,13 @@
 #include <string>
 #include <csignal> // SIGINT用
 #include "LCCV/include/lccv.hpp"
+#include "LCCV/include/libcamera_app.hpp"
 
 using namespace cv;
 using namespace std;
+
+#define CAM_WIDTH (320)
+#define CAM_HEIGHT (240)
 
 #define OFFSET_X (104)
 #define OFFSET_Y (0)
@@ -44,7 +48,7 @@ Mat processFrame(const Mat &frame)
     return grayFrame;
 }
 
-void convertToMnistFormat(const Mat &image, uint8_t *data)
+void convertToMnistFormat(const Mat &image, float *data)
 {
     if (image.cols != 28 || image.rows != 28)
         throw runtime_error("Image size must be 28x28.");
@@ -52,7 +56,11 @@ void convertToMnistFormat(const Mat &image, uint8_t *data)
     if (image.type() != CV_8U)
         throw runtime_error("Image must be single-channel 8-bit.");
 
-    memcpy(data, image.data, 28 * 28 * sizeof(uint8_t));
+    // 正規化処理
+    for (int i = 0; i < 28 * 28; i++)
+    {
+        data[i] = static_cast<float>(image.data[i]) / 255.0f;
+    }
 }
 
 void read_pgm_mnist(const string &filename, uint8_t *data)
@@ -89,6 +97,9 @@ void read_pgm_mnist(const string &filename, uint8_t *data)
 
 int main(int argc, char *argv[])
 {
+    // SIGINTハンドラを設定
+    signal(SIGINT, handleSigint);
+
     if (argc < 2 || argc > 3)
     {
         printf("Usage: %s nnp_file\n", argv[0]);
@@ -96,7 +107,7 @@ int main(int argc, char *argv[])
     }
 
     const string nnp_file(argv[1]);
-    string executor_name = (argc == 4) ? argv[3] : "runtime";
+    string executor_name = (argc == 3) ? argv[2] : "Executor";
 
     nbla::Context cpu_ctx{{"cpu:float"}, "CpuCachedArray", "0"};
     nbla::utils::nnp::Nnp nnp(cpu_ctx);
@@ -106,19 +117,24 @@ int main(int argc, char *argv[])
     executor->set_batch_size(1);
 
     auto x = executor->get_data_variables().at(0).variable;
-    uint8_t *data = x->variable()->cast_data_and_get_pointer<uint8_t>(cpu_ctx);
+    float *data = x->variable()->cast_data_and_get_pointer<float>(cpu_ctx);
 
-    // const string tempFilename = "camera_frame.jpg";
-
-    cv::Mat image;
+    // カメラの初期化
+    int height = CAM_HEIGHT;
+    int width = CAM_WIDTH;
+    cv::Mat image = cv::Mat(height, width, CV_8UC3);
     lccv::PiCamera cam;
-    cam.options->photo_width = 320;
-    cam.options->photo_height = 240;
+    cam.options->video_height = height;
+    cam.options->video_width = width;
+    cam.options->framerate = 15;
     cam.options->verbose = true;
+    cam.startVideo();
+
+    int frameCount = 0;
 
     while (!stopFlag)
     {
-        if (!cam.capturePhoto(image))
+        if (!cam.getVideoFrame(image, 1000))
         {
             std::cout << "Camera error" << std::endl;
         }
@@ -135,15 +151,14 @@ int main(int argc, char *argv[])
             break;
         }
 
-        // imwrite("processed_frame.pgm", processedFrame);
-        // try
+        // // for debug
+        // for (int i = 0; i < 28; i++)
         // {
-        //     read_pgm_mnist("processed_frame.pgm", data);
-        // }
-        // catch (const exception &e)
-        // {
-        //     printf("Error reading PGM: %s\n", e.what());
-        //     break;
+        //     for (int j = 0; j < 28; j++)
+        //     {
+        //         printf("%3d ", data[i * 28 + j]);
+        //     }
+        //     printf("\n");
         // }
 
         executor->execute();
@@ -153,7 +168,8 @@ int main(int argc, char *argv[])
         int prediction = 0;
         float max_score = -1e10;
 
-        printf("Prediction scores:");
+        printf("Frame %d\n", frameCount++);
+        printf("Prediction scores:\n");
         for (int i = 0; i < 10; ++i)
         {
             if (y_data[i] > max_score)
@@ -163,21 +179,20 @@ int main(int argc, char *argv[])
             }
             printf(" %d: %.6f \n", i, y_data[i]);
         }
-        printf("Predicted label: %d (score: %.6f)\n", prediction, max_score);
-        // if (max_score > 0.7f)
-        // {
-        //     printf("Predicted label: %d (score: %.6f)\n", prediction, max_score);
-        // }
-        // else
-        // {
-        //     printf("Predicted label: None\n");
-        // }
-
-        // 100ms待機
-        // waitKey(100);
+        // printf("Predicted label: %d (score: %.6f)\n", prediction, max_score);
+        if (max_score > 0.7f)
+        {
+            printf("Predicted label: %d (score: %.6f)\n", prediction, max_score);
+        }
+        else
+        {
+            printf("Predicted label: None\n");
+        }
+        waitKey(100);
     }
 
     nbla::SingletonManager::clear();
+    cam.stopVideo();
     cout << "プログラムを終了します。" << endl;
     return 0;
 }

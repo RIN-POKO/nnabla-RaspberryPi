@@ -1,6 +1,6 @@
-[submodule "mnist-camera/mnist-camera/LCCV"]
+[submodule "mnist-camera/LCCV"]
 	path = mnist-camera/mnist-camera/LCCV
 	url = https://github.com/kbarni/LCCV.git
-[submodule "mnist-camera/LCCV"]
-	path = mnist-camera/LCCV
+[submodule "handSign-camera/LCCV"]
+	path = handSign-camera/LCCV
 	url = https://github.com/kbarni/LCCV.git
